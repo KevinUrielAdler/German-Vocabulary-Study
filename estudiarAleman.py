@@ -10,9 +10,12 @@ RUTA_VOCABULARIO = "Vocabulario/"
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 
 
-def esIgual(significado1, significado2):
-    significados1 = [s.strip() for s in significado1.split("/")]
-    significados2 = [s.strip() for s in significado2.split("/")]
+def esIgual(elemento1, elemento2):
+    if elemento1["Beschreibung"] != elemento2["Beschreibung"]:
+        return False
+
+    significados1 = [s.strip() for s in elemento1["Übersetzung"].split("/")]
+    significados2 = [s.strip() for s in elemento2["Übersetzung"].split("/")]
 
     for s1 in significados1:
         for s2 in significados2:
@@ -134,15 +137,18 @@ def estudiarConjVerbos(*_, infinitas_veces=True):
             print(f"Präteritum: {verbo['Präteritum']}")
             print(f"Konjunktiv II: {verbo['Konjunktiv II']}\n")
 
-        print(f"Traducción: {verbo['Übersetzung']}")
-
-        if verbo["Beschreibung"] != "-":
-            print(f"Descripción: {verbo['Beschreibung']}\n")
+        print(
+            f"- Traducción: {verbo['Übersetzung']}\n" +
+            (
+                f"- Descripción: {verbo['Beschreibung']}\n"
+                if verbo["Beschreibung"] != "-" else ""
+            )
+        )
 
         conteo[1] += 1
         verbos[indice]["Treffer Konjugations"] = f"{conteo[0]}/{conteo[1]}"
         guardarDatos(verbos, "Verbos.csv", fieldnames)
-        salir = input("\n¿Salir? (s/n): ")
+        salir = input("¿Salir? (s/n): ")
 
         if salir.lower() == 's':
             print("¡Hasta luego!")
@@ -176,6 +182,12 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         conteo = [int(c) for c in conteo]
         verbo = verbos[indice]
         respuestas = [v.strip() for v in verbo["Übersetzung"].split("/")]
+
+        for respuesta in respuestas:
+            if '(' in respuesta:
+                respuestas.remove(respuesta)
+                respuestas.append(respuesta.replace("(", "").replace(")", ""))
+
         instruccion = f"Traduce '{verbo['Infinitiv']}' al español: "
         respuesta = input(instruccion).strip()
         resp_correcta = respuesta in respuestas
@@ -185,7 +197,11 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             ejecuciones += 1
             print(
                 "\n¡Correcto!\n- Respuestas válidas: " +
-                ", ".join(respuestas) + "\n"
+                ", ".join(respuestas) + "\n" +
+                (
+                    f"- Descripción: ({verbo['Beschreibung']})\n"
+                    if verbo["Beschreibung"] != "-" else ""
+                )
             )
 
         else:
@@ -199,7 +215,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta)
+            print("\nIncorrecto. " + msg_correcta + "\n")
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -210,7 +226,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         conteo[1] += 1
         verbos[indice]["Treffer Spanisch"] = f"{conteo[0]}/{conteo[1]}"
         guardarDatos(verbos, "Verbos.csv", fieldnames)
-        salir = input("\n¿Salir? (s/n): ")
+        salir = input("¿Salir? (s/n): ")
 
         if salir.lower() == 's':
             print("¡Hasta luego!")
@@ -251,8 +267,13 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         respuestas = []
 
         for v in verbos:
-            if esIgual(v["Übersetzung"], verbo["Übersetzung"]) and v["Beschreibung"] == verbo["Beschreibung"]:
-                respuestas.append(v["Infinitiv"])
+            if esIgual(v, verbo):
+                if '(' not in v["Infinitiv"]:
+                    respuestas.append(v["Infinitiv"])
+                else:
+                    respuestas.append(
+                        v["Infinitiv"].replace("(", "").replace(")", "")
+                    )
 
         resp_correcta = respuesta in respuestas
 
@@ -277,7 +298,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta)
+            print("\nIncorrecto. " + msg_correcta + "\n")
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -288,7 +309,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         conteo[1] += 1
         verbos[indice]["Treffer Deutsch"] = f"{conteo[0]}/{conteo[1]}"
         guardarDatos(verbos, "Verbos.csv", fieldnames)
-        salir = input("\n¿Salir? (s/n): ")
+        salir = input("¿Salir? (s/n): ")
 
         if salir.lower() == 's':
             print("¡Hasta luego!")
@@ -357,7 +378,11 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             ejecuciones += 1
             print(
                 "\n¡Correcto!\n- Respuestas válidas: " +
-                ", ".join(respuestas) + "\n"
+                ", ".join(respuestas) + "\n" +
+                (
+                    f"- Descripción: ({sustantivo['Beschreibung']})\n"
+                    if sustantivo["Beschreibung"] != "-" else ""
+                )
             )
 
         else:
@@ -371,7 +396,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta)
+            print("\nIncorrecto. " + msg_correcta + "\n")
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -382,7 +407,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         conteo[1] += 1
         sustantivos[indice]["Treffer Spanisch"] = f"{conteo[0]}/{conteo[1]}"
         guardarDatos(sustantivos, "Sustantivos.csv", fieldnames)
-        salir = input("\n¿Salir? (s/n): ")
+        salir = input("¿Salir? (s/n): ")
 
         if salir.lower() == 's':
             print("¡Hasta luego!")
@@ -424,7 +449,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         respuestas = []
 
         for s in sustantivos:
-            if esIgual(s["Übersetzung"], sustantivo["Übersetzung"]) and s["Beschreibung"] == sustantivo["Beschreibung"]:
+            if esIgual(s, sustantivo):
                 if s["Femeninum"] != "-":
                     respuestas.append(f"der {s['Wort']}")
                     respuestas.append(f"die {s['Femeninum']}")
@@ -456,7 +481,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta)
+            print("\nIncorrecto. " + msg_correcta + "\n")
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -467,7 +492,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         conteo[1] += 1
         sustantivos[indice]["Treffer Deutsch"] = f"{conteo[0]}/{conteo[1]}"
         guardarDatos(sustantivos, "Sustantivos.csv", fieldnames)
-        salir = input("\n¿Salir? (s/n): ")
+        salir = input("¿Salir? (s/n): ")
 
         if salir.lower() == 's':
             print("¡Hasta luego!")
@@ -508,7 +533,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         respuestas = []
 
         for a in adjetivos:
-            if esIgual(a["Übersetzung"], adjetivo["Übersetzung"]) and a["Beschreibung"] == adjetivo["Beschreibung"]:
+            if esIgual(a, adjetivo):
                 respuestas.append(a["Adjektiv"])
 
         resp_correcta = respuesta in respuestas
@@ -534,7 +559,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta)
+            print("\nIncorrecto. " + msg_correcta + "\n")
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -545,7 +570,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         conteo[1] += 1
         adjetivos[indice]["Treffer Deutsch"] = f"{conteo[0]}/{conteo[1]}"
         guardarDatos(adjetivos, "Adjetivos.csv", fieldnames)
-        salir = input("\n¿Salir? (s/n): ")
+        salir = input("¿Salir? (s/n): ")
 
         if salir.lower() == 's':
             print("¡Hasta luego!")

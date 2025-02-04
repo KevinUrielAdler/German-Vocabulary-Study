@@ -367,7 +367,7 @@ s,Rad,-,⸚er,-,Rueda,-
 r,Regenschirm,-,-e,-,Paraguas,-
 r,Schirm,-,-e,-,Paraguas,-
 e,Grippe,-,-n,-,Gripe,-
-r,Schnupfen,-,-,-,Con catarro,-
+r,Schnupfen,-,-,-,Catarro,-
 e,Erkältung,-,-en,-,Resfriado,-
 r,Husten,-,-,-,Tos,-
 r,Schmerz,-,-en,-,Dolor,-
@@ -815,6 +815,7 @@ e,Mode,-,-n,-,Moda,-
 r,Pass,-,⸚e,-,Pasaporte,general
 r,Reisepass,-,⸚e,-,Pasaporte,de viaje
 s,Pflaster,-,-,-,Curita,-
+e,Salbe,-,-n,-,Pomada,-
 e,Presse,-,-,-,Prensa,-
 r,Schlüssel,-,-,-,Llave,-
 r,Schweizer,-,-,-,Sueco,-

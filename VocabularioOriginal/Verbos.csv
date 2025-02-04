@@ -74,7 +74,7 @@ abstellen,stellt ab,hat abgestellt,stelle ab,stelle ab,apagar/estacionar,-,Akk,0
 parken,parkt,hat geparkt,parkte,parkte,aparcar,-,Akk,0/0,0/0,0/0
 sagen,sagt,hat gesagt,sagte,sagte,decir,-,Dat,0/0,0/0,0/0
 reden,redet,hat geredet,redete,redete,hablar/conversar,-,Akk,0/0,0/0,0/0
-unterhalten,unterhält sich,hat sich unterhalten,unterhielt sich,unterhielte sich,conversar,charlar o entretenerse,-,0/0,0/0,0/0
+sich unterhalten,unterhält sich,hat sich unterhalten,unterhielt sich,unterhielte sich,conversar,charlar o entretenerse,-,0/0,0/0,0/0
 sprechen,spricht,hat gesprochen,sprach,spräche,hablar,-,Akk,0/0,0/0,0/0
 telefonieren,telefoniert,hat telefoniert,telefonierte,telefonierte,hablar por teléfono,-,Akk,0/0,0/0,0/0
 anrufen,ruft an,hat angerufen,rief an,rüfe an,llamar por teléfono,hacer una llamada telefónica,Akk,0/0,0/0,0/0
@@ -90,7 +90,7 @@ verschlafen,verschläft,hat verschlafen,verschlief,verschlüfe,quedarse dormido,
 wegbleiben,bleibt weg,ist weggeblieben,blieb weg,bliebe weg,quedarse fuera,-,-,0/0,0/0,0/0
 hören,hört,hat gehört,hörte,hörte,oír,-,Akk,0/0,0/0,0/0
 gehören,gehört,hat gehört,gehörte,gehörte,pertenecer,-,Dat,0/0,0/0,0/0
-aufhören, hörtauf,hat aufgehört,hörte auf,hörte auf,terminar,parar de hacer algo,Akk,0/0,0/0,0/0
+aufhören,hörtauf,hat aufgehört,hörte auf,hörte auf,terminar,parar de hacer algo,Akk,0/0,0/0,0/0
 beenden,beendet,hat beendet,beendete,beendete,terminar,finalizar algo,Akk,0/0,0/0,0/0
 trinken,trinkt,hat getrunken,trank,tränke,beber,-,Akk,0/0,0/0,0/0
 austrinken,trinkt aus,hat ausgetrunken,trank aus,tränke aus,terminar de beber,-,Akk,0/0,0/0,0/0
@@ -373,12 +373,12 @@ lösen,löst,hat gelöst,löste,löste,resolver,-,Akk,0/0,0/0,0/0
 sollen,soll,hat gesollt,sollte,sollte,deber,-,Akk,0/0,0/0,0/0
 aufregen,regt auf,hat aufgeregt,regte auf,regte auf,alterar/excitar,-,Akk,0/0,0/0,0/0
 ausruhen,ruht aus,hat ausgeruht,ruhte aus,ruhte aus,descansar,-,-,0/0,0/0,0/0
-beschweren,beschwert sich,hat sich beschwert,beschwerte sich,beschwerte sich,quejarse,-,Dat,0/0,0/0,0/0
+sich beschweren,beschwert sich,hat sich beschwert,beschwerte sich,beschwerte sich,quejarse,-,Dat,0/0,0/0,0/0
 klagen,klagt,hat geklagt,klagte,klagte,quejarse,-,-,0/0,0/0,0/0
 meckern,meckert,hat gemeckert,meckerte,meckerte,quejarse,-,-,0/0,0/0,0/0
 quengeln,quengelt,hat gequengelt,quengelte,quengelte,quejarse infantilmente,-,-,0/0,0/0,0/0
-freuen,freut sich,hat sich gefreut,freute sich,freute sich,alegrarse,-,Akk,0/0,0/0,0/0
-interessieren,interessiert sich,hat sich interessiert,interessierte sich,interessierte sich,interesar,-,Akk,0/0,0/0,0/0
+sich freuen,freut sich,hat sich gefreut,freute sich,freute sich,alegrarse,-,Akk,0/0,0/0,0/0
+sich interessieren,interessiert sich,hat sich interessiert,interessierte sich,interessierte sich,interesar,-,Akk,0/0,0/0,0/0
 küssen,küsst,hat geküsst,küsste,küsste,besar,-,Akk,0/0,0/0,0/0
 raten,rät,hat geraten,riet,riete,aconsejar/adivinar,-,Dat,0/0,0/0,0/0
 beraten,berät,hat beraten,beriet,beriete,aconsejar,dar consejo formal,Akk,0/0,0/0,0/0
@@ -390,24 +390,24 @@ sorgen,sorgt,hat gesorgt,sorgte,sorgte,preocuparse por,-,Akk,0/0,0/0,0/0
 tanken,tankt,hat getankt,tankte,tankte,llenar el tanque,-,Akk,0/0,0/0,0/0
 verbrauchen,verbraucht,hat verbraucht,verbrauchte,verbrauchte,consumir,-,Akk,0/0,0/0,0/0
 warnen,warnt,hat gewarnt,warnte,warnte,advertir,-,Akk,0/0,0/0,0/0
-entschuldigen,entschuldigt sich,hat sich entschuldigt,entschuldigte sich,entschuldigte sich,disculparse,-,-,0/0,0/0,0/0
+sich entschuldigen,entschuldigt sich,hat sich entschuldigt,entschuldigte sich,entschuldigte sich,disculparse,-,-,0/0,0/0,0/0
 erziehen,erzieht,hat erzogen,erzog,erzüge,educar,-,Akk,0/0,0/0,0/0
 hassen,hasst,hat gehasst,hasste,hasste,odiar,-,Akk,0/0,0/0,0/0
-kümmern,kümmert sich,hat sich gekümmert,kümmerte sich,kümmerte sich,ocuparse de,-,Akk,0/0,0/0,0/0
-langweilen,langweilt sich,hat sich gelangweilt,langweilte sich,langweilte sich,aburrirse,-,Akk,0/0,0/0,0/0
+sich kümmern,kümmert sich,hat sich gekümmert,kümmerte sich,kümmerte sich,ocuparse de,-,Akk,0/0,0/0,0/0
+sich langweilen,langweilt sich,hat sich gelangweilt,langweilte sich,langweilte sich,aburrirse,-,Akk,0/0,0/0,0/0
 schlagen,schlägt,hat geschlagen,schlug,schlüge,golpear,-,Akk,0/0,0/0,0/0
 sparen,spart,hat gespart,sparte,sparte,ahorrar,-,Akk,0/0,0/0,0/0
-streiten,streitet sich,hat sich gestritten,stritt sich,stritte sich,pelearse,-,-,0/0,0/0,0/0
+sich streiten,streitet sich,hat sich gestritten,stritt sich,stritte sich,pelearse,-,-,0/0,0/0,0/0
 töten,tötet,hat getötet,tötete,tötete,matar,-,Akk,0/0,0/0,0/0
 fließen,fließt,ist geflossen,floss,flösse,fluir,-,-,0/0,0/0,0/0
 mitmachen,macht mit,hat mitgemacht,machte mit,machte mit,participar,-,-,0/0,0/0,0/0
 trennen,trennt,hat getrennt,trennte,trennte,separar,-,Akk,0/0,0/0,0/0
 überraschen,überrascht,hat überrascht,überraschte,überraschte,sorprender,-,Akk,0/0,0/0,0/0
 verbrennen,verbrennt,hat verbrannt,verbrannte,verbrannte,quemar,-,Akk,0/0,0/0,0/0
-einigen,einigt sich,hat sich geeinigt,einigte sich,einigte sich,ponerse de acuerdo,-,-,0/0,0/0,0/0
+sich einigen,einigt sich,hat sich geeinigt,einigte sich,einigte sich,ponerse de acuerdo,-,-,0/0,0/0,0/0
 einwandern,wandert ein,ist eingewandert,wanderte ein,wanderte ein,inmigrar,-,-,0/0,0/0,0/0
 erkennen,erkennt,hat erkannt,erkannte,erkennte,reconocer,-,Akk,0/0,0/0,0/0
-gewöhnen,gewöhnt sich,hat sich gewöhnt,gewöhnte sich,gewöhnte sich,acostumbrarse,-,Akk,0/0,0/0,0/0
+sich gewöhnen,gewöhnt sich,hat sich gewöhnt,gewöhnte sich,gewöhnte sich,acostumbrarse,-,Akk,0/0,0/0,0/0
 reservieren,reserviert,hat reserviert,reservierte,reservierte,reservar,-,Akk,0/0,0/0,0/0
 retten,rettet,hat gerettet,rettete,rettete,salvar,-,Akk,0/0,0/0,0/0
 wiegen,wiegt,hat gewogen,wog,wöge,pesar,-,Akk,0/0,0/0,0/0
@@ -416,7 +416,7 @@ demonstrieren,demonstriert,hat demonstriert,demonstrierte,demonstrierte,demostra
 vormachen,macht vor,hat vorgemacht,machte vor,machte vor,demostrar/enseñar,mostrar como se hace algo,-,0/0,0/0,0/0
 erweisen,erweist,hat erwiesen,erwies,erwiese,demostrar,hechos o pruebas,Dat,0/0,0/0,0/0
 täuschen,täuscht,hat getäuscht,täuschte,täuschte,engañar,-,-,0/0,0/0,0/0
-entschließen,entschließt sich,hat sich entschlossen,entschloss sich,entschlösse sich,decidirse,-,-,0/0,0/0,0/0
+sich entschließen,entschließt sich,hat sich entschlossen,entschloss sich,entschlösse sich,decidirse,-,-,0/0,0/0,0/0
 unterschreiben,unterschreibt,hat unterschrieben,unterschrieb,unterschriebe,firmar,-,Akk,0/0,0/0,0/0
 unterzeichnen,unterzeichnet,hat unterzeichnet,unterzeichnete,unterzeichnete,firmar,-,-,0/0,0/0,0/0
 kürzen,kürzt,hat gekürzt,kürzte,kürzte,acortar/reducir,-,Akk,0/0,0/0,0/0
@@ -475,3 +475,189 @@ gernhaben,hat gern,hat gerngehabt,habe gern,hab gern,gustar/agradar,-,Akk,0/0,0/
 schmusen,schmust,hat geschmust,schmuste,schmuste,acurrucarse/besarse,con caricias,Akk,0/0,0/0,0/0
 verführen,verführt,hat verführt,verführte,verführte,seducir,-,Akk,0/0,0/0,0/0
 sehnen,sehnt,hat gesehnt,sehnte,sehnte,anhelar/añorar,-,Akk,0/0,0/0,0/0
+abstimmen (über),stimmt ab,hat abgestimmt,stimmte ab,stimmte ab,votar (sobre),-,Akk,0/0,0/0,0/0
+stimmen (für),stimmt,hat gestimmt,stimmte,stimmte,votar (por),-,Akk,0/0,0/0,0/0
+stimmen (gegen),stimmt,hat gestimmt,stimmte,stimmte,votar (en contra de),-,Akk,0/0,0/0,0/0
+achten (auf),achtet,hat geachtet,achtete,achtete,prestar atención (a)/cuidar (de),-,Akk,0/0,0/0,0/0
+ankommen (auf),kommt an,ist angekommen,kam an,käme an,depender (de),-,Akk,0/0,0/0,0/0
+antworten (auf),antwortet,hat geantwortet,antwortete,antwortete,responder (a),-,Akk,0/0,0/0,0/0
+sich anpassen (an),passt sich an,hat sich angepasst,passte sich an,passte sich an,adaptarse (a),-,Akk,0/0,0/0,0/0
+sich ärgern (über),ärgert sich,hat sich geärgert,ärgerte sich,ärgerte sich,enojarse (por),-,Akk,0/0,0/0,0/0
+aufpassen (auf),passt auf,hat aufgepasst,passte auf,passte auf,cuidar (de),-,Akk,0/0,0/0,0/0
+sich aufregen (über),regt sich auf,hat sich aufgeregt,regte sich auf,regte sich auf,alterarse (por),-,Akk,0/0,0/0,0/0
+ausgeben (für),gibt aus,hat ausgegeben,gab aus,gäbe aus,gastar (en),-,Akk,0/0,0/0,0/0
+sich bedanken (für),bedankt sich,hat sich bedankt,bedankte sich,bedankte sich,agradecer (por),-,Akk,0/0,0/0,0/0
+sich beklagen (über),beklagt sich,hat sich beklagt,beklagte sich,beklagte sich,quejarse (de),-,Akk,0/0,0/0,0/0
+sich bemühen (um),bemüht sich,hat sich bemüht,bemühte sich,bemühte sich,esforzarse (por),-,Akk,0/0,0/0,0/0
+beraten (über),berät,hat beraten,beriet,beriete,asesorar (sobre),-,Akk,0/0,0/0,0/0
+berichten (über),berichtet,hat berichtet,berichtete,berichtete,informar (sobre),-,Akk,0/0,0/0,0/0
+beschliessen (über),beschließt,hat beschlossen,beschloss,beschlösse,decidir (sobre),-,Akk,0/0,0/0,0/0
+sich beschweren (über),beschwert sich,hat sich beschwert,beschwerte sich,beschwerte sich,quejarse (de),-,Akk,0/0,0/0,0/0
+sich bewerben (um),bewirbt sich,hat sich beworben,bewarb sich,bewürbe sich,postularse (para),-,Akk,0/0,0/0,0/0
+sich beziehen (auf),bezieht sich,hat sich bezogen,bezog sich,bezöge sich,referirse (a),-,Akk,0/0,0/0,0/0
+bitten (um),bittet,hat gebeten,bat,bäte,pedir (algo),-,Akk,0/0,0/0,0/0
+bürgen (für),bürgt,hat gebürgt,bürgte,bürgte,garantizar (por),-,Akk,0/0,0/0,0/0
+danken (für),dankt,hat gedankt,dankte,dankte,agradecer (por),-,Akk,0/0,0/0,0/0
+denken (an),denkt,hat gedacht,dachte,dächte,pensar (en),-,Akk,0/0,0/0,0/0
+diskutieren (über),diskutiert,hat diskutiert,diskutierte,diskutierte,discutir (sobre),-,Akk,0/0,0/0,0/0
+sich drehen (um),dreht sich,hat sich gedreht,drehte sich,drehte sich,girar (en torno a),-,Akk,0/0,0/0,0/0
+sich eignen (für),eignet sich,hat sich geeignet,eignete sich,eignete sich,ser adecuado (para),-,Akk,0/0,0/0,0/0
+sich entscheiden (für),entscheidet sich,hat sich entschieden,entschied sich,entschiede sich,decidirse (por),-,Akk,0/0,0/0,0/0
+sich entschuldigen (für),entschuldigt sich,hat sich entschuldigt,entschuldigte sich,entschuldigte sich,disculparse (por),-,Akk,0/0,0/0,0/0
+erinnern (an),erinnert,hat erinnert,erinnerte,erinnerte,recordar (a),-,Akk,0/0,0/0,0/0
+sich erinnern (an),erinnert sich,hat sich erinnert,erinnerte sich,erinnerte sich,acordarse (de),-,Akk,0/0,0/0,0/0
+ersetzen (durch),ersetzt,hat ersetzt,ersetzte,ersetzte,sustituir (por),-,Akk,0/0,0/0,0/0
+folgen (auf),folgt,ist gefolgt,folgte,folgte,seguir (a),-,Akk,0/0,0/0,0/0
+sich freuen (auf),freut sich,hat sich gefreut,freute sich,freute sich,alegrarse (por),futuro,Akk,0/0,0/0,0/0
+sich freuen (über),freut sich,hat sich gefreut,freute sich,freute sich,alegrarse (por),presente/pasado,Akk,0/0,0/0,0/0
+garantieren (für),garantiert,hat garantiert,garantierte,garantierte,garantizar (por),-,Akk,0/0,0/0,0/0
+gehen (um),geht,ist gegangen,ging,gänge,tratarse (de),-,Akk,0/0,0/0,0/0
+geraten (in),gerät,ist geraten,geriet,geriete,llegar (a),situación,Akk,0/0,0/0,0/0
+geraten (unter),gerät,ist geraten,geriet,geriete,caer (bajo),influencia/presión,Akk,0/0,0/0,0/0
+sich gewöhnen (an),gewöhnt sich,hat sich gewöhnt,gewöhnte sich,gewöhnte sich,acostumbrarse (a),-,Akk,0/0,0/0,0/0
+glauben (an),glaubt,hat geglaubt,glaubte,glaubte,creer (en),-,Akk,0/0,0/0,0/0
+halten (für),hält,hat gehalten,hielt,hielte,considerar (como),-,Akk,0/0,0/0,0/0
+sich halten (an),hält sich,hat sich gehalten,hielt sich,hielte sich,atenerse (a),-,Akk,0/0,0/0,0/0
+sich handeln (um),handelt sich,hat sich gehandelt,handelte sich,handelte sich,tratarse (de),-,Akk,0/0,0/0,0/0
+herrschen (über),herrscht,hat geherrscht,herrschte,herrschte,dominar (sobre),-,Akk,0/0,0/0,0/0
+hören (auf),hört,hat gehört,hörte,hörte,obedecer (a),-,Akk,0/0,0/0,0/0
+hoffen (auf),hofft,hat gehofft,hoffte,hoffte,esperar (por),-,Akk,0/0,0/0,0/0
+informieren (über),informiert,hat informiert,informierte,informierte,informar (sobre),-,Akk,0/0,0/0,0/0
+sich informieren (über),informiert sich,hat sich informiert,informierte sich,informierte sich,informarse (sobre),-,Akk,0/0,0/0,0/0
+sich interessieren (für),interessiert sich,hat sich interessiert,interessierte sich,interessierte sich,interesarse (por),-,Akk,0/0,0/0,0/0
+kämpfen (für),kämpft,hat gekämpft,kämpfte,kämpfte,luchar (por),-,Akk,0/0,0/0,0/0
+kämpfen (gegen),kämpft,hat gekämpft,kämpfte,kämpfte,luchar (contra),-,Akk,0/0,0/0,0/0
+kämpfen (um),kämpft,hat gekämpft,kämpfte,kämpfte,luchar (por),-,Akk,0/0,0/0,0/0
+klagen (über),klagt,hat geklagt,klagte,klagte,quejarse (de),-,Akk,0/0,0/0,0/0
+kommen (auf),kommt,ist gekommen,kam,käme,llegar (a),idea/resultado,Akk,0/0,0/0,0/0
+sich konzentrieren (auf),konzentriert sich,hat sich konzentriert,konzentrierte sich,konzentrierte sich,concentrarse (en),-,Akk,0/0,0/0,0/0
+sich kümmern (um),kümmert sich,hat sich gekümmert,kümmerte sich,kümmerte sich,ocuparse (de),-,Akk,0/0,0/0,0/0
+lächeln (über),lächelt,hat gelächelt,lächelte,lächelte,sonreír (por),-,Akk,0/0,0/0,0/0
+lachen (über),lacht,hat gelacht,lachte,lachte,reírse (de),-,Akk,0/0,0/0,0/0
+nachdenken (über),denkt nach,hat nachgedacht,dachte nach,dächte nach,reflexionar (sobre),-,Akk,0/0,0/0,0/0
+protestieren (gegen),protestiert,hat protestiert,protestierte,protestierte,protestar (contra),-,Akk,0/0,0/0,0/0
+sich rächen (für),rächt sich,hat sich gerächt,rächte sich,rächte sich,vengarse (por),-,Akk,0/0,0/0,0/0
+reagieren (auf),reagiert,hat reagiert,reagierte,reagierte,reaccionar (a),-,Akk,0/0,0/0,0/0
+rechnen (auf),rechnet,hat gerechnet,rechnete,rechnete,contar (con),-,Akk,0/0,0/0,0/0
+reden (über),redet,hat geredet,redete,redete,hablar (sobre),-,Akk,0/0,0/0,0/0
+riechen (nach),riecht,hat gerochen,roch,röche,oler (a),-,Akk,0/0,0/0,0/0
+schimpfen (über),schimpft,hat geschimpft,schimpfte,schimpfte,quejarse (de),-,Akk,0/0,0/0,0/0
+schreiben (an),schreibt,hat geschrieben,schrieb,schriebe,escribir (a),-,Akk,0/0,0/0,0/0
+schreiben (über),schreibt,hat geschrieben,schrieb,schriebe,escribir (sobre),-,Akk,0/0,0/0,0/0
+sein (für),ist,ist gewesen,war,wäre,estar (a favor de),-,Akk,0/0,0/0,0/0
+sein (gegen),ist,ist gewesen,war,wäre,estar (en contra de),-,Akk,0/0,0/0,0/0
+sorgen (für),sorgt,hat gesorgt,sorgte,sorgte,cuidar (de),-,Akk,0/0,0/0,0/0
+sich sorgen (um),sorgt sich,hat sich gesorgt,sorgte sich,sorgte sich,preocuparse (por),-,Akk,0/0,0/0,0/0
+sprechen (über),spricht,hat gesprochen,sprach,spräche,hablar (sobre),-,Akk,0/0,0/0,0/0
+staunen (über),staunt,hat gestaunt,staunte,staunte,asombrarse (de),-,Akk,0/0,0/0,0/0
+stehen (auf),steht,hat gestanden,stand,stünde,gustar mucho (de),-,Akk,0/0,0/0,0/0
+sterben (für),stirbt,ist gestorben,starb,stürbe,morir (por),-,Akk,0/0,0/0,0/0
+streiten (über),streitet,hat gestritten,stritt,stritte,discutir (sobre),-,Akk,0/0,0/0,0/0
+sich streiten (um),streitet sich,hat sich gestritten,stritt sich,stritte sich,pelearse (por),-,Akk,0/0,0/0,0/0
+tun (für),tut,hat getan,tat,täte,hacer (por),-,Akk,0/0,0/0,0/0
+sich unterhalten (über),unterhält sich,hat sich unterhalten,unterhielt sich,unterhielte sich,conversar (sobre),-,Akk,0/0,0/0,0/0
+unterrichten (über),unterrichtet,hat unterrichtet,unterrichtete,unterrichtete,enseñar (sobre),-,Akk,0/0,0/0,0/0
+sich verlassen (auf),verlässt sich,hat sich verlassen,verließ sich,verließe sich,confiar (en),-,Akk,0/0,0/0,0/0
+sich verlieben (in),verliebt sich,hat sich verliebt,verliebte sich,verliebte sich,enamorarse (de),-,Akk,0/0,0/0,0/0
+vermieten (an),vermietet,hat vermietet,vermietete,vermietete,alquilar (a),-,Akk,0/0,0/0,0/0
+sich vertiefen (in),vertieft sich,hat sich vertieft,vertiefte sich,vertiefte sich,profundizar (en),-,Akk,0/0,0/0,0/0
+vertrauen (auf),vertraut,hat vertraut,vertraute,vertraute,confiar (en),-,Akk,0/0,0/0,0/0
+verzichten (auf),verzichtet,hat verzichtet,verzichtete,verzichtete,renunciar (a),-,Akk,0/0,0/0,0/0
+sich vorbereiten (auf),bereitet sich vor,hat sich vorbereitet,bereitete sich vor,bereitete sich vor,prepararse (para),-,Akk,0/0,0/0,0/0
+wählen (in),wählt,hat gewählt,wählte,wählte,elegir (en),-,Akk,0/0,0/0,0/0
+warten (auf),wartet,hat gewartet,wartete,wartete,esperar (a),-,Akk,0/0,0/0,0/0
+sich wenden (an),wendet sich,hat sich gewendet,wandte sich,wendete sich,dirigirse (a),-,Akk,0/0,0/0,0/0
+sich wundern (über),wundert sich,hat sich gewundert,wunderte sich,wunderte sich,sorprenderse (de),-,Akk,0/0,0/0,0/0
+abhängen (von),hängt ab,hat abgehangen,hing ab,hinge ab,depender (de),-,Dat,0/0,0/0,0/0
+ändern (an),ändert,hat geändert,änderte,änderte,cambiar (en),-,Dat,0/0,0/0,0/0
+anfangen (mit),fängt an,hat angefangen,fing an,finge an,empezar (con),-,Dat,0/0,0/0,0/0
+abheben (von),hebt ab,hat abgehoben,hob ab,höbe ab,retirar (de),-,Dat,0/0,0/0,0/0
+auffordern (zu),fordert auf,hat aufgefordert,forderte auf,forderte auf,invitar (a),-,Dat,0/0,0/0,0/0
+aufhören (mit),hört auf,hat aufgehört,hörte auf,hörte auf,dejar (de),-,Dat,0/0,0/0,0/0
+sich auseinandersetzen (mit),setzt sich auseinander,hat sich auseinandergesetzt,setzte sich auseinander,setzte sich auseinander,ocuparse (de)/enfrentarse (a),-,Dat,0/0,0/0,0/0
+sich bedanken (bei),bedankt sich,hat sich bedankt,bedankte sich,bedankte sich,agradecer (a),-,Dat,0/0,0/0,0/0
+sich befreien (von),befreit sich,hat sich befreit,befreite sich,befreite sich,liberarse (de),-,Dat,0/0,0/0,0/0
+sich befreien (aus),befreit sich,hat sich befreit,befreite sich,befreite sich,liberarse (de),-,Dat,0/0,0/0,0/0
+beginnen (mit),beginnt,hat begonnen,begann,begänne,empezar (con),-,Dat,0/0,0/0,0/0
+sich beklagen (bei),beklagt sich,hat sich beklagt,beklagte sich,beklagte sich,quejarse (a),-,Dat,0/0,0/0,0/0
+berichten (von),berichtet,hat berichtet,berichtete,berichtete,informar (de),-,Dat,0/0,0/0,0/0
+sich beschäftigen (mit),beschäftigt sich,hat sich beschäftigt,beschäftigte sich,beschäftigte sich,ocuparse (de),-,Dat,0/0,0/0,0/0
+bestehen (aus),besteht,hat bestanden,bestand,bestände,consistir (en),-,Dat,0/0,0/0,0/0
+sich beschweren (bei),beschwert sich,hat sich beschwert,beschwerte sich,beschwerte sich,quejarse (a),-,Dat,0/0,0/0,0/0
+einladen (zu),lädt ein,hat eingeladen,lud ein,lüde ein,invitar (a),-,Dat,0/0,0/0,0/0
+sich entschliessen (zu),entschliesst sich,hat sich entschlossen,entschloss sich,entschlösse sich,decidirse (a),-,Dat,0/0,0/0,0/0
+sich entschuldigen (bei),entschuldigt sich,hat sich entschuldigt,entschuldigte sich,entschuldigte sich,disculparse (con),-,Dat,0/0,0/0,0/0
+sich entwickeln (zu),entwickelt sich,hat sich entwickelt,entwickelte sich,entwickelte sich,desarrollarse (en/hacia),-,Dat,0/0,0/0,0/0
+sich erholen (von),erholt sich,hat sich erholt,erholte sich,erholte sich,recuperarse (de),-,Dat,0/0,0/0,0/0
+erkennen (an),erkennt,hat erkannt,erkannte,erkannte,reconocer (por),-,Dat,0/0,0/0,0/0
+sich erkundigen (nach),erkundigt sich,hat sich erkundigt,erkundigte sich,erkundigte sich,informarse (sobre)/preguntar (por),-,Dat,0/0,0/0,0/0
+sich erkundigen (bei),erkundigt sich,hat sich erkundigt,erkundigte sich,erkundigte sich,informarse (con)/preguntar (a),-,Dat,0/0,0/0,0/0
+erzählen (von),erzählt,hat erzählt,erzählte,erzählte,contar (sobre),-,Dat,0/0,0/0,0/0
+erziehen (zu),erzieht,hat erzogen,erzog,erzöge,educar (para),-,Dat,0/0,0/0,0/0
+fehlen (an),fehlt,hat gefehlt,fehlte,fehlte,faltar (en),-,Dat,0/0,0/0,0/0
+folgen (aus),folgt,hat gefolgt,folgte,folgte,seguir (de),-,Dat,0/0,0/0,0/0
+fragen (nach),fragt,hat gefragt,fragte,fragte,preguntar (por),-,Dat,0/0,0/0,0/0
+führen (zu),führt,hat geführt,führte,führte,llevar (a),-,Dat,0/0,0/0,0/0
+sich fürchten (vor),fürchtet sich,hat sich gefürchtet,fürchtete sich,fürchtete sich,temer (a),-,Dat,0/0,0/0,0/0
+gehören (zu),gehört,hat gehört,gehörte,gehörte,pertenecer (a),-,Dat,0/0,0/0,0/0
+gratulieren (zu),gratuliert,hat gratuliert,gratulierte,gratulierte,felicitar (por),-,Dat,0/0,0/0,0/0
+halten (von),hält,hat gehalten,hielt,hielte,opinar (de),-,Dat,0/0,0/0,0/0
+handeln (mit),handelt,hat gehandelt,handelte,handelte,tratar (con),-,Dat,0/0,0/0,0/0
+handeln (von),handelt,hat gehandelt,handelte,handelte,tratar (de),-,Dat,0/0,0/0,0/0
+helfen (bei),hilft,hat geholfen,half,hülfe,ayudar (en),-,Dat,0/0,0/0,0/0
+hindern (an),hindert,hat gehindert,hinderte,hinderte,impedir (en),-,Dat,0/0,0/0,0/0
+hören (von),hört,hat gehört,hörte,hörte,escuchar (de),-,Dat,0/0,0/0,0/0
+sich hüten (vor),hütet sich,hat sich gehütet,hütete sich,hütete sich,cuidarse (de)/evitar (a),-,Dat,0/0,0/0,0/0
+sich irren (in),irrt sich,hat sich geirrt,irrte sich,irrte sich,equivocarse (en),-,Dat,0/0,0/0,0/0
+kämpfen (mit),kämpft,hat gekämpft,kämpfte,kämpfte,luchar (con),-,Dat,0/0,0/0,0/0
+kommen (zu),kommt,ist gekommen,kam,käme,llegar (a),-,Dat,0/0,0/0,0/0
+leben (von),lebt,hat gelebt,lebte,lebte,vivir (de),-,Dat,0/0,0/0,0/0
+leiden (an),leidet,hat gelitten,litt,litte,sufrir (de),-,Dat,0/0,0/0,0/0
+leiden (unter),leidet,hat gelitten,litt,litte,sufrir (bajo),-,Dat,0/0,0/0,0/0
+liegen (an),liegt,hat gelegen,lag,läge,depender (de),-,Dat,0/0,0/0,0/0
+meinen (zu),meint,hat gemeint,meinte,meinte,opinar (sobre),-,Dat,0/0,0/0,0/0
+sich melden (bei),meldet sich,hat sich gemeldet,meldete sich,meldete sich,avisar (a)/registrarse (en),-,Dat,0/0,0/0,0/0
+passen (zu),passt,hat gepasst,passte,passte,combinar (con),-,Dat,0/0,0/0,0/0
+profitieren (von),profitiert,hat profitiert,profitierte,profitierte,beneficiarse (de),-,Dat,0/0,0/0,0/0
+sich rächen (an),rächt sich,hat sich gerächt,rächte sich,rächte sich,vengarse (de),-,Dat,0/0,0/0,0/0
+raten (zu),rät,hat geraten,riet,riete,aconsejar (a),-,Dat,0/0,0/0,0/0
+rechnen (mit),rechnet,hat gerechnet,rechnete,rechnete,contar (con),-,Dat,0/0,0/0,0/0
+reden (von),redet,hat geredet,redete,redete,hablar (de),-,Dat,0/0,0/0,0/0
+reden (mit),redet,hat geredet,redete,redete,hablar (con),-,Dat,0/0,0/0,0/0
+sich richten (nach),richtet sich,hat sich gerichtet,richtete sich,richtete sich,guiarse (por),-,Dat,0/0,0/0,0/0
+riechen (nach),riecht,hat gerochen,roch,röche,oler (a),-,Dat,0/0,0/0,0/0
+rufen (nach),ruft,hat gerufen,rief,riefe,llamar (a),-,Dat,0/0,0/0,0/0
+sich schützen (vor),schützt sich,hat sich geschützt,schützte sich,schützte sich,protegerse (de),-,Dat,0/0,0/0,0/0
+schimpfen (mit),schimpft,hat geschimpft,schimpfte,schimpfte,regañar (con),-,Dat,0/0,0/0,0/0
+schliessen (aus),schliesst,hat geschlossen,schloss,schlösse,concluir (de),-,Dat,0/0,0/0,0/0
+schmecken (nach),schmeckt,hat geschmeckt,schmeckte,schmeckte,saber (a),-,Dat,0/0,0/0,0/0
+schreiben (an),schreibt,hat geschrieben,schrieb,schriebe,escribir (a),-,Dat,0/0,0/0,0/0
+sehen (nach),sieht,hat gesehen,sah,sähe,verificar (algo),-,Dat,0/0,0/0,0/0
+sich sehnen (nach),sehnt sich,hat sich gesehnt,sehnte sich,sehnte sich,anhelar (por),-,Dat,0/0,0/0,0/0
+sprechen (mit),spricht,hat gesprochen,sprach,spräche,hablar (con),-,Dat,0/0,0/0,0/0
+sprechen (von),spricht,hat gesprochen,sprach,spräche,hablar (de),-,Dat,0/0,0/0,0/0
+sterben (an),stirbt,ist gestorben,starb,stürbe,morir (de),-,Dat,0/0,0/0,0/0
+sich streiten (mit),streitet sich,hat sich gestritten,stritt sich,stritte sich,pelearse (con),-,Dat,0/0,0/0,0/0
+teilnehmen (an),nimmt teil,hat teilgenommen,nahm teil,nähme teil,participar (en),-,Dat,0/0,0/0,0/0
+telefonieren (mit),telefoniert,hat telefoniert,telefonierte,telefonierte,hablar por teléfono (con),-,Dat,0/0,0/0,0/0
+träumen (von),träumt,hat geträumt,träumte,träumte,soñar (con),-,Dat,0/0,0/0,0/0
+sich treffen (mit),trifft sich,hat sich getroffen,traf sich,träfe sich,quedar (con)/encontrarse (con),-,Dat,0/0,0/0,0/0
+sich trennen (von),trennt sich,hat sich getrennt,trennte sich,trennte sich,separarse (de),-,Dat,0/0,0/0,0/0
+überreden (zu),überredet,hat überredet,überredete,überredete,convencer (de),-,Dat,0/0,0/0,0/0
+sich unterhalten (mit),unterhält sich,hat sich unterhalten,unterhielt sich,unterhielte sich,conversar (con),-,Dat,0/0,0/0,0/0
+sich unterscheiden (von),unterscheidet sich,hat sich unterschieden,unterschied sich,unterschiede sich,diferenciarse (de),-,Dat,0/0,0/0,0/0
+sich verabreden (mit),verabredet sich,hat sich verabredet,verabredete sich,verabredete sich,quedar (con)/citar (a),-,Dat,0/0,0/0,0/0
+verbinden (mit),verbindet,hat verbunden,verband,verbände,conectar (con),-,Dat,0/0,0/0,0/0
+vergleichen (mit),vergleicht,hat verglichen,verglich,vergliche,comparar (con),-,Dat,0/0,0/0,0/0
+sich verloben (mit),verlobt sich,hat sich verlobt,verlobte sich,verlobte sich,comprometerse (con),-,Dat,0/0,0/0,0/0
+verstehen (von),versteht,hat verstanden,verstand,verstände,entender (de),-,Dat,0/0,0/0,0/0
+sich verstehen (mit),versteht sich,hat sich verstanden,verstand sich,verstände sich,entenderse (con),-,Dat,0/0,0/0,0/0
+verwechseln (mit),verwechselt,hat verwechselt,verwechselte,verwechselte,confundir (con),-,Dat,0/0,0/0,0/0
+wählen (zu),wählt,hat gewählt,wählte,wählte,elegir (para),-,Dat,0/0,0/0,0/0
+wählen (zwischen),wählt,hat gewählt,wählte,wählte,elegir (entre),-,Dat,0/0,0/0,0/0
+warnen (vor),warnt,hat gewarnt,warnte,warnte,advertir (de),-,Dat,0/0,0/0,0/0
+werden (zu),wird,ist geworden,wurde,würde,convertirse (en),-,Dat,0/0,0/0,0/0
+wissen (von),weiss,hat gewusst,wusste,wüsste,saber (de),-,Dat,0/0,0/0,0/0
+zweifeln (an),zweifelt,hat gezweifelt,zweifelte,zweifelte,dudar (de),-,Dat,0/0,0/0,0/0
+zwingen (zu),zwingt,hat gezwungen,zwang,zwänge,obligar (a),-,Dat,0/0,0/0,0/0
+zu tun haben (mit),hat zu tun,hat zu tun gehabt,hatte zu tun,hätte zu tun,tener que ver (con),-,Dat,0/0,0/0,0/0
