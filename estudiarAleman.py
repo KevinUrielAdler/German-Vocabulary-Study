@@ -2,12 +2,40 @@ import os
 import csv
 import random
 
+from colorama import Fore
+
 from config import OPENAI_API_KEY
 
 RUTA_VOCABULARIO = "Vocabulario/"
+GENEROS = {
+    "e": "die ",
+    "r": "der ",
+    "s": "das ",
+    "-": "",
+}
+COLORES = {
+    "die ": Fore.MAGENTA,
+    "der ": Fore.CYAN,
+    "das ": Fore.WHITE,
+}
+RESET = Fore.RESET
+ACIERTO = Fore.GREEN
+ERROR = Fore.RED
 
 
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+
+
+def colorear(strings, colores):
+    if isinstance(strings, str):
+        return f"{colores}{strings}{RESET}"
+
+    strings_res = []
+
+    for string, color in zip(strings, colores):
+        strings_res.append(f"{color}{string}{RESET}")
+
+    return strings_res
 
 
 def esIgual(elemento1, elemento2):
@@ -128,10 +156,10 @@ def estudiarConjVerbos(*_, infinitas_veces=True):
         if resp_correcta:
             conteo[0] += 1
             ejecuciones += 1
-            print("\n¡Correcto!\n")
+            print(f"\n{colorear('¡Correcto!', ACIERTO)}\n")
 
         else:
-            print(f"\nIncorrecto. Respuesta correcta:")
+            print(f"\n{colorear('Incorrecto.', ERROR)} Respuesta correcta:")
             print(f"Presente: {verbo['Präsens']}")
             print(f"Partizip II: {verbo['Partizip II']}")
             print(f"Präteritum: {verbo['Präteritum']}")
@@ -196,7 +224,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             conteo[0] += 1
             ejecuciones += 1
             print(
-                "\n¡Correcto!\n- Respuestas válidas: " +
+                f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
                 ", ".join(respuestas) + "\n" +
                 (
                     f"- Descripción: ({verbo['Beschreibung']})\n"
@@ -215,7 +243,14 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta + "\n")
+            print(
+                f"\n{colorear('Incorrecto.', ERROR)}\n- Respuestas válidas: " +
+                ", ".join(respuestas) + "\n" +
+                (
+                    f"- Descripción: ({verbo['Beschreibung']})\n"
+                    if verbo["Beschreibung"] != "-" else ""
+                )
+            )
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -281,7 +316,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             conteo[0] += 1
             ejecuciones += 1
             print(
-                "\n¡Correcto!\n- Respuestas válidas: " +
+                f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
                 ", ".join(respuestas) + "\n"
             )
 
@@ -298,7 +333,10 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta + "\n")
+            print(
+                f"\n{colorear('Incorrecto.', ERROR)}\n- Respuestas válidas: " +
+                ", ".join(respuestas) + "\n"
+            )
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -344,17 +382,18 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         conteo = sustantivos[indice]["Treffer Spanisch"].split("/")
         conteo = [int(c) for c in conteo]
         sustantivo = sustantivos[indice]
-        generos = {"e": "die ", "r": "der ", "s": "das ", "-": ""}
-        genero = generos[sustantivo["Genus"]]
+        genero = GENEROS[sustantivo["Genus"]]
         respuestas = [s.strip() for s in sustantivo["Übersetzung"].split("/")]
 
-        if sustantivo["Femeninum"] == "-":
-            sustantivo_en_aleman = f"{genero}{sustantivo['Wort']}"
+        if genero:
+            sustantivo_aleman = f"{genero}{sustantivo['Wort']}"
         else:
+            genero = genero_s
+
             if genero_s == "der ":
-                sustantivo_en_aleman = f"{genero_s}{sustantivo['Wort']}"
+                sustantivo_aleman = f"{genero_s}{sustantivo['Wort']}"
             else:
-                sustantivo_en_aleman = f"{genero_s}{sustantivo['Femeninum']}"
+                sustantivo_aleman = f"{genero_s}{sustantivo['Femeninum']}"
 
             for resp in respuestas:
                 if "(a)" in resp:
@@ -369,7 +408,9 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                         else:
                             respuestas.append(resp_base + "a")
 
-        instruccion = f"Traduce '{sustantivo_en_aleman}' al español: "
+        instruccion = f"Traduce '{
+            colorear(sustantivo_aleman, COLORES[genero])
+        }' al español: "
         respuesta = input(instruccion).strip()
         resp_correcta = respuesta in respuestas
 
@@ -377,7 +418,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             conteo[0] += 1
             ejecuciones += 1
             print(
-                "\n¡Correcto!\n- Respuestas válidas: " +
+                f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
                 ", ".join(respuestas) + "\n" +
                 (
                     f"- Descripción: ({sustantivo['Beschreibung']})\n"
@@ -396,7 +437,14 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta + "\n")
+            print(
+                f"\n{colorear('Incorrecto.', ERROR)}\n- Respuestas válidas: " +
+                ", ".join(respuestas) + "\n" +
+                (
+                    f"- Descripción: ({sustantivo['Beschreibung']})\n"
+                    if sustantivo["Beschreibung"] != "-" else ""
+                )
+            )
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -445,18 +493,21 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
 ({sustantivo['Beschreibung']}) " if sustantivo["Beschreibung"] != "-" else ""
         instruccion += "al alemán: "
         respuesta = input(instruccion).strip()
-        generos = {"e": "die ", "r": "der ", "s": "das ", "-": ""}
         respuestas = []
+        colores = []
 
         for s in sustantivos:
             if esIgual(s, sustantivo):
                 if s["Femeninum"] != "-":
                     respuestas.append(f"der {s['Wort']}")
                     respuestas.append(f"die {s['Femeninum']}")
+                    colores.append(COLORES["der "])
+                    colores.append(COLORES["die "])
 
                 else:
-                    genero_s = generos[s['Genus']]
+                    genero_s = GENEROS[s['Genus']]
                     respuestas.append(f"{genero_s}{s['Wort']}")
+                    colores.append(COLORES[genero_s])
 
         resp_correcta = respuesta in respuestas
 
@@ -464,8 +515,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             conteo[0] += 1
             ejecuciones += 1
             print(
-                f"\n¡Correcto!\n- Respuestas válidas: " +
-                ", ".join(respuestas) + "\n"
+                f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
+                ", ".join(colorear(respuestas, colores)) + "\n"
             )
 
         else:
@@ -481,7 +532,10 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta + "\n")
+            print(
+                f"\n{colorear('Incorrecto.', ERROR)}\n- Respuestas válidas: " +
+                ", ".join(colorear(respuestas, colores)) + "\n"
+            )
 
             if asistente:
                 explicarRespuestaIncorrecta(
@@ -542,7 +596,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             conteo[0] += 1
             ejecuciones += 1
             print(
-                "\n¡Correcto!\n- Respuestas válidas: " +
+                f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
                 ", ".join(respuestas) + "\n"
             )
 
@@ -559,7 +613,10 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 msg_correcta = f"Respuestas válidas: {', '.join(respuestas)}"
 
             msg_usuario += msg_correcta
-            print("\nIncorrecto. " + msg_correcta + "\n")
+            print(
+                f"\n{colorear('Incorrecto.', ERROR)}\n- Respuestas válidas: " +
+                ", ".join(respuestas) + "\n"
+            )
 
             if asistente:
                 explicarRespuestaIncorrecta(

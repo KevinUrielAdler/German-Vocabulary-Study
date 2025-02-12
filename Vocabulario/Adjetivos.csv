@@ -23,7 +23,7 @@ sportlich,sportlicher,am sportlichsten,deportivo,-,2/4
 sympathisch,sympathischer,am sympathischsten,simpático,-,0/0
 nett,netter,am nettesten,simpático,-,1/3
 traurig,trauriger,am traurigsten,triste,-,0/0
-treu,treuer,am treuesten,fiel,-,2/3
+treu,treuer,am treuesten,fiel,-,3/4
 verrückt,verrückter,am verrücktesten,loco,-,3/6
 dünn,dünner,am dünnsten,delgado,connotación negativa,0/0
 schlank,schlanker,am schlanksten,delgado,connotación positiva,1/3
@@ -31,7 +31,7 @@ ehrlich,ehrlicher,am ehrlichsten,sincero,-,2/4
 elegant,eleganter,am elegantesten,elegante,-,2/2
 freundlich,freundlicher,am freundlichsten,amable,-,1/2
 interessant,interessanter,am interessantesten,interesante,-,0/0
-jung,jünger,am jüngsten,joven,-,0/0
+jung,jünger,am jüngsten,joven,-,1/3
 klug,klüger,am klügsten,inteligente,-,1/2
 intelligent,intelligenter,am intelligentesten,inteligente,-,1/2
 pünktlich,pünktlicher,am pünktlichsten,puntual,-,1/2
@@ -50,9 +50,9 @@ faul,fauler,am faulsten,vago,-,0/0
 eigen,eigener,am eigensten,propio,-,1/2
 geliebt,geliebter,am geliebtesten,amado,-,2/3
 zuverlässig,zuverlässiger,am zuverlässigsten,confiable,-,2/4
-hübsch,hübscher,am hübschesten,bonito,apariencia,1/2
+hübsch,hübscher,am hübschesten,bonito,apariencia,2/3
 schön,schöner,am schönsten,bonito,general,3/4
-wütend,wütender,am wütendsten,furioso,-,2/4
+wütend,wütender,am wütendsten,furioso,-,3/6
 zornig,zorniger,am zornigsten,furioso,-,1/2
 fest,fester,am festesten,firme,-,1/2
 bequem,bequemer,am bequemsten,cómodo,-,2/3
@@ -65,7 +65,7 @@ grün,grüner,am grünsten,verde,-,0/0
 schnell,schneller,am schnellsten,rápido,-,1/1
 langsam,langsamer,am langsamsten,lento,-,1/2
 schwach,schwächer,am schwächsten,débil,-,2/4
-heiß,heißer,am heißesten,caliente,-,0/0
+heiß,heißer,am heißesten,caliente,-,1/2
 neu,neuer,am neuesten,nuevo,-,1/1
 kalt,kälter,am kältesten,frío,-,1/1
 spitz,spitzer,am spitzesten,puntiagudo,-,1/2
@@ -83,7 +83,7 @@ viel,mehr,am meisten,mucho,-,1/1
 wenig,weniger,am wenigsten,poco,-,2/3
 allmählich,allmählicher,am allmählichsten,poco a poco,-,1/2
 hoch,höher,am höchsten,alto,-,1/1
-tief,tiefer,am tiefsten,profundo,-,0/0
+tief,tiefer,am tiefsten,profundo,-,1/2
 nah,näher,am nächsten,cerca,-,1/2
 weit,weiter,am weitesten,lejos,-,0/0
 groß,größer,am größten,grande,-,0/0
@@ -128,13 +128,13 @@ europäisch,europäischer,am europäischsten,europeo,-,2/2
 fantastisch,fantastischer,am fantastischsten,fantástico,-,1/1
 fein,feiner,am feinsten,fino,-,1/2
 feucht,feuchter,am feuchtesten,húmedo,-,1/2
-gewöhnlich,gewöhnlicher,am gewöhnlichsten,ordinario,-,0/0
+gewöhnlich,gewöhnlicher,am gewöhnlichsten,ordinario,-,1/3
 günstig,günstiger,am günstigsten,económico,-,1/2
 preiswert,preiswerter,am preiswertesten,económico,-,2/2
 wirtschaftlich,wirtschaftlicher,am wirtschaftlichsten,económico,-,1/1
 herzlich,herzlicher,am herzlichsten,cordial,-,1/2
 möglich,möglicher,am möglichsten,posible,-,1/2
-öffentlich,öffentlicher,am öffentlichsten,público,-,1/2
+öffentlich,öffentlicher,am öffentlichsten,público,-,2/4
 regelmäßig,regelmäßiger,am regelmäßigsten,regular,-,1/1
 reich,reicher,am reichsten,rico,-,1/1
 tot,toter,am totesten,muerto,-,1/2
@@ -155,7 +155,7 @@ aktiv,aktiver,am aktivsten,activo,-,2/4
 berufstätig,berufstätiger,am berufstätigsten,activo laboralmente,-,0/0
 allein,alleiner,am alleinsten,solo,-,1/2
 ärgerlich,ärgerlicher,am ärgerlichsten,molesto,-,1/2
-beruflich,beruflicher,am beruflichsten,laboral,-,0/0
+beruflich,beruflicher,am beruflichsten,laboral,-,1/2
 besetzt,besetzter,am besetztesten,ocupado,-,4/8
 dauernd,dauernder,am dauerndsten,permanente,-,0/0
 frei,freier,am freiesten,libre,-,1/1
@@ -170,7 +170,7 @@ spät,später,am spätesten,tarde,-,1/1
 überzeugt,überzeugter,am überzeugtsten,convencido,-,1/3
 unbedingt,unbedingter,am unbedingtsten,indispensable,-,1/2
 unfreundlich,unfreundlicher,am unfreundlichsten,descortés,-,2/4
-unmöglich,unmöglicher,am unmöglichsten,imposible,-,0/0
+unmöglich,unmöglicher,am unmöglichsten,imposible,-,1/3
 verheiratet,verheirateter,am verheiratetsten,casado,-,1/2
 deutsch,deutscher,am deutschesten,alemán,-,2/2
 erste,erster,am ersten,primero,-,1/2
@@ -183,7 +183,7 @@ plötzlich,plötzlicher,am plötzlichsten,repentino,-,1/1
 sonnig,sonniger,am sonnigsten,soleado,-,3/4
 täglich,täglicher,am täglichsten,diario,-,2/3
 typisch,typischer,am typischsten,típico,-,2/2
-warm,warmer,am wärmsten,cálido,-,0/0
+warm,warmer,am wärmsten,cálido,-,1/2
 zweite,zweiter,am zweitesten,segundo,-,1/1
 amerikanisch,amerikanischer,am amerikanischsten,americano,-,1/2
 durstig,durstiger,am durstigsten,sediento,-,1/2
@@ -221,7 +221,7 @@ unverständlich,unverständlicher,am unverständlichsten,incomprensible,-,1/2
 verständlich,verständlicher,am verständlichsten,comprensible,-,0/0
 inakzeptabel,inakzeptabler,am inakzeptabelsten,inaceptable,-,2/4
 aufrecht,aufrechter,am aufrechtesten,erguido/honesto,-,1/2
-verzweifelt,verzweifelter,am verzweifeltesten,desesperado,-,1/2
+verzweifelt,verzweifelter,am verzweifeltesten,desesperado,-,2/4
 heimlich,heimlicher,am heimlichsten,secreto,-,1/2
 undeutlich,undeutlicher,am undeutlichsten,indistinto,-,0/0
 aufgeregt,aufgeregter,am aufgeregtesten,emocionado,-,1/2
@@ -234,10 +234,10 @@ schrecklich,schrecklicher,am schrecklichsten,horrible,-,1/2
 positiv,positiver,am positivsten,positivo,-,1/1
 neutral,neutraler,am neutralsten,neutral,-,2/2
 negativ,negativer,am negativsten,negativo,-,1/1
-grundsätzlich,grundsätzlicher,am grundsätzlichsten,fundamental,-,3/6
+grundsätzlich,grundsätzlicher,am grundsätzlichsten,fundamental,-,4/9
 mittelmäßig,mittelmäßiger,am mittelmäßigsten,mediocre,-,2/4
 geboren,-,-,nacido,-,1/1
-geschieden,-,-,divorciado,-,1/2
+geschieden,-,-,divorciado,-,2/4
 verwitwet,-,-,viudo,-,2/6
 üblich,üblicher,am üblichsten,común,-,2/3
 gemainsam,gemeinsamer,am gemeinsamsten,en conjunto/común,-,1/1
@@ -257,9 +257,9 @@ pflegebedürftig,pflegebedürftiger,am pflegebedürftigsten,dependiente de cuida
 anfällig,anfälliger,am anfälligsten,vulnerable,-,1/2
 geistig,geistiger,am geistigsten,mental,-,0/0
 weiblich,weiblicher,am weiblichsten,femenino,-,2/2
-männlich,männlicher,am männlichsten,masculino,-,0/0
+männlich,männlicher,am männlichsten,masculino,-,1/1
 gegenseitig,gegenseitiger,am gegenseitigsten,mutuo,-,2/4
 verliebt,verliebter,am verliebtesten,enamorado,-,0/0
-verlobt,verlobter,am verlobtesten,comprometido,-,0/0
+verlobt,verlobter,am verlobtesten,comprometido,-,1/2
 befreundet,befreundeter,am befreundetsten,amistoso,-,1/2
 getrennt,getrennter,am getrenntesten,separado,-,1/2
