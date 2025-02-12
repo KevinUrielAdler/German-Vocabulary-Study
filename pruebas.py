@@ -1,4 +1,6 @@
 # %% Pruebas fórmula de peso
+import math
+
 from tabulate import tabulate
 
 
@@ -145,7 +147,39 @@ def calc_peso_ajustado_v3(aciertos, veces_presentado):
         return peso
 
 
-def cotejarFormulas(funciones):
+def calc_peso_ajustado_v4(aciertos, veces_presentado, dias_sin_practicar, lambda_factor=0.1):
+    if veces_presentado == 0:
+        return 1
+
+    peso = (
+        (
+            veces_presentado**2 * (veces_presentado - aciertos) +
+            aciertos
+        )
+        /
+        (veces_presentado**2 * (1 + veces_presentado))
+    )
+
+    # factor_olvido = 1 + (1 - math.exp(-lambda_factor * dias_sin_practicar))
+    # peso = (
+    #     (peso * factor_olvido)  # min: 0, max: 2
+    #     /
+    #     2
+    # )
+    factor_olvido = 2 - math.exp(-lambda_factor * dias_sin_practicar)
+    peso = peso * factor_olvido / 2
+
+    if round(peso, 3) > 0 and round(peso, 3) < 1:
+        return round(peso, 3)
+    elif round(peso, 6) > 0 and round(peso, 6) < 1:
+        return round(peso, 6)
+    elif round(peso, 9) > 0 and round(peso, 9) < 1:
+        return round(peso, 9)
+    else:
+        return peso
+
+
+def cotejarFormulas(funciones_params: dict[str, tuple[int, list]]):
     datos = [
         [0, 0],
         [0, 1], [1, 1],
@@ -165,17 +199,19 @@ def cotejarFormulas(funciones):
         [3_000, 10_000], [5_000, 10_000], [7_000, 10_000], [10_000, 10_000],
 
         [0, 100_000], [5_000, 100_000], [10_000, 100_000],
-        [30_000, 100_000], [50_000, 100_000], [70_000, 100_000], [100_000, 100_000]
+        [30_000, 100_000], [50_000, 100_000], [
+            70_000, 100_000], [100_000, 100_000]
     ]
     resultados = {
         "__Datos": datos
     }
 
-    for nombre_func, func_calc_peso in funciones.items():
+    for nombre_func, (func_calc_peso, params) in funciones_params.items():
         resultados[nombre_func] = []
 
         for dato in datos:
-            resultados[nombre_func].append(func_calc_peso(*dato))
+            parametros = [*dato, *params]
+            resultados[nombre_func].append(func_calc_peso(*parametros))
 
     resultados["Datos__"] = datos
 
@@ -183,30 +219,46 @@ def cotejarFormulas(funciones):
 
 
 funciones = {
-    "Sencillo": calc_peso_sencillo,
-    "Lineal": calc_peso_lineal,
-    "Exponencial": calc_peso_exponencial,
-    "Ajustado": calc_peso_ajustado,
-    "Ajustado Exponencial": calc_peso_ajustado_exponencial,
-    "Ajustado v2": calc_peso_ajustado_v2,
-    "Ajustado v3": calc_peso_ajustado_v3
+    # "Sencillo": (calc_peso_sencillo,[]),
+    # "Lineal": (calc_peso_lineal,[]),
+    # "Exponencial": (calc_peso_exponencial,[]),
+    # "Ajustado": (calc_peso_ajustado,[]),
+    # "Ajustado Exponencial": (calc_peso_ajustado_exponencial,[]),
+    # "Ajustado v2": (calc_peso_ajustado_v2,[]),
+    "Ajustado v3": (calc_peso_ajustado_v3, []),
+    "Ajustado v4 (1d)": (calc_peso_ajustado_v4, [1]),
+    "Ajustado v4 (3d)": (calc_peso_ajustado_v4, [3]),
+    "Ajustado v4 (7d)": (calc_peso_ajustado_v4, [7]),
+    "Ajustado v4 (14d)": (calc_peso_ajustado_v4, [14]),
+    "Ajustado v4 (30d)": (calc_peso_ajustado_v4, [30]),
+    "Ajustado v4 (365d)": (calc_peso_ajustado_v4, [365]),
 }
 cotejarFormulas(funciones)
 
 exit()
 # %% Tmp
 
-resp = ["1", "2", "3"]
-descripcion = "-"
-descripcion = "Números"
 
-print(
-    "\n¡Correcto!\n- Respuestas válidas: " +
-    ", ".join(resp) + "\n" +
-    (
-        f"Descripción: ({descripcion})\n"
-        if descripcion != "-" else ""
-    )
-)
+def func1(**kwargs):
+    func2(**kwargs)  # Desempaquetamos kwargs
 
-print("Salir? (s/n)")
+
+def func2(**kwargs):
+    print(kwargs)  # kwargs será {'días': 2}
+
+
+func1(días=2)
+
+# %% Guardar fecha de hoy en formato DD-MM-YY
+from datetime import datetime
+
+hoy = datetime.now()
+print(hoy)  # 2025-02-11 15:31:51.000000
+fecha_hoy_str = hoy.strftime("%d-%m-%y")
+print(fecha_hoy_str)  # (11-02-25)
+# pasar de string "DD-MM-YY" a datetime
+fecha_obtenida = datetime.strptime("11-02-24", "%d-%m-%y")
+print(fecha_obtenida)  # 2025-02-11 00:00:00
+# fecha menos la fecha obtenida del string
+diferencia = hoy - fecha_obtenida
+print(diferencia.days)  # 0

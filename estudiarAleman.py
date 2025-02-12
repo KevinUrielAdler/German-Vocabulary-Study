@@ -1,6 +1,8 @@
 import os
 import csv
+import math
 import random
+from datetime import datetime
 
 from colorama import Fore
 
@@ -21,6 +23,8 @@ COLORES = {
 RESET = Fore.RESET
 ACIERTO = Fore.GREEN
 ERROR = Fore.RED
+HOY = datetime.now()
+HOY_STR = HOY.strftime("%d-%m-%y")
 
 
 os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
@@ -53,7 +57,7 @@ def esIgual(elemento1, elemento2):
     return False
 
 
-def calcular_peso(aciertos, veces_presentado):
+def calcular_peso(aciertos, veces_presentado, dias_sin_practicar, lambda_factor=0.1):
     if veces_presentado == 0:
         return 1
 
@@ -65,6 +69,8 @@ def calcular_peso(aciertos, veces_presentado):
         /
         (veces_presentado**2 * (1 + veces_presentado))
     )
+    factor_olvido = 2 - math.exp(-lambda_factor * dias_sin_practicar)
+    peso = peso * factor_olvido / 2
 
     return peso
 
@@ -80,9 +86,17 @@ def elegirOpcion(archivo, columna_conteo):
     pesos = []
 
     for i, dato in enumerate(datos):
-        conteo = dato[columna_conteo].split("/")
+        conteo, fecha = dato[columna_conteo].split(" ")
+        tiempo_sin_practicar = HOY - datetime.strptime(fecha, "%d-%m-%y")
+        aciertos, veces_presentado = map(int, conteo.split("/"))
         opciones.append(i)
-        pesos.append(calcular_peso(int(conteo[0]), int(conteo[1])))
+        pesos.append(
+            calcular_peso(
+                aciertos,
+                veces_presentado,
+                tiempo_sin_practicar.days
+            )
+        )
 
     indice = random.choices(opciones, weights=pesos)[0]
 
@@ -134,8 +148,8 @@ def estudiarConjVerbos(*_, infinitas_veces=True):
                 columna_conteo="Treffer Konjugations"
             )
 
-        conteo = verbos[indice]["Treffer Konjugations"].split("/")
-        conteo = [int(c) for c in conteo]
+        conteo = verbos[indice]["Treffer Konjugations"].split(" ")[0]
+        aciertos, veces_presentado = map(int, conteo.split("/"))
         verbo = verbos[indice]
         infinitivo = verbo["Infinitiv"]
         respuesta_presente = input(
@@ -154,7 +168,7 @@ def estudiarConjVerbos(*_, infinitas_veces=True):
         )
 
         if resp_correcta:
-            conteo[0] += 1
+            aciertos += 1
             ejecuciones += 1
             print(f"\n{colorear('¡Correcto!', ACIERTO)}\n")
 
@@ -173,8 +187,8 @@ def estudiarConjVerbos(*_, infinitas_veces=True):
             )
         )
 
-        conteo[1] += 1
-        verbos[indice]["Treffer Konjugations"] = f"{conteo[0]}/{conteo[1]}"
+        veces_presentado += 1
+        verbos[indice]["Treffer Konjugations"] = f"{aciertos}/{veces_presentado} {HOY_STR}"
         guardarDatos(verbos, "Verbos.csv", fieldnames)
         salir = input("¿Salir? (s/n): ")
 
@@ -206,8 +220,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 columna_conteo="Treffer Spanisch"
             )
 
-        conteo = verbos[indice]["Treffer Spanisch"].split("/")
-        conteo = [int(c) for c in conteo]
+        conteo = verbos[indice]["Treffer Spanisch"].split(" ")[0]
+        aciertos, veces_presentado = map(int, conteo.split("/"))
         verbo = verbos[indice]
         respuestas = [v.strip() for v in verbo["Übersetzung"].split("/")]
 
@@ -221,7 +235,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         resp_correcta = respuesta in respuestas
 
         if resp_correcta:
-            conteo[0] += 1
+            aciertos += 1
             ejecuciones += 1
             print(
                 f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
@@ -258,8 +272,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                     msg_asistente, msg_usuario
                 )
 
-        conteo[1] += 1
-        verbos[indice]["Treffer Spanisch"] = f"{conteo[0]}/{conteo[1]}"
+        veces_presentado += 1
+        verbos[indice]["Treffer Spanisch"] = f"{aciertos}/{veces_presentado} {HOY_STR}"
         guardarDatos(verbos, "Verbos.csv", fieldnames)
         salir = input("¿Salir? (s/n): ")
 
@@ -291,8 +305,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 columna_conteo="Treffer Deutsch"
             )
 
-        conteo = verbos[indice]["Treffer Deutsch"].split("/")
-        conteo = [int(c) for c in conteo]
+        conteo = verbos[indice]["Treffer Deutsch"].split(" ")[0]
+        aciertos, veces_presentado = map(int, conteo.split("/"))
         verbo = verbos[indice]
         instruccion = f"Traduce '{verbo['Übersetzung']}' "
         instruccion += f"\
@@ -313,7 +327,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         resp_correcta = respuesta in respuestas
 
         if resp_correcta:
-            conteo[0] += 1
+            aciertos += 1
             ejecuciones += 1
             print(
                 f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
@@ -344,8 +358,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                     msg_asistente, msg_usuario
                 )
 
-        conteo[1] += 1
-        verbos[indice]["Treffer Deutsch"] = f"{conteo[0]}/{conteo[1]}"
+        veces_presentado += 1
+        verbos[indice]["Treffer Deutsch"] = f"{aciertos}/{veces_presentado} {HOY_STR}"
         guardarDatos(verbos, "Verbos.csv", fieldnames)
         salir = input("¿Salir? (s/n): ")
 
@@ -379,8 +393,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             )
             genero_s = random.choice(["der ", "die "])
 
-        conteo = sustantivos[indice]["Treffer Spanisch"].split("/")
-        conteo = [int(c) for c in conteo]
+        conteo = sustantivos[indice]["Treffer Spanisch"].split(" ")[0]
+        aciertos, veces_presentado = map(int, conteo.split("/"))
         sustantivo = sustantivos[indice]
         genero = GENEROS[sustantivo["Genus"]]
         respuestas = [s.strip() for s in sustantivo["Übersetzung"].split("/")]
@@ -415,7 +429,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         resp_correcta = respuesta in respuestas
 
         if resp_correcta:
-            conteo[0] += 1
+            aciertos += 1
             ejecuciones += 1
             print(
                 f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
@@ -452,8 +466,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                     msg_asistente, msg_usuario
                 )
 
-        conteo[1] += 1
-        sustantivos[indice]["Treffer Spanisch"] = f"{conteo[0]}/{conteo[1]}"
+        veces_presentado += 1
+        sustantivos[indice]["Treffer Spanisch"] = f"{aciertos}/{veces_presentado} {HOY_STR}"
         guardarDatos(sustantivos, "Sustantivos.csv", fieldnames)
         salir = input("¿Salir? (s/n): ")
 
@@ -485,8 +499,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 columna_conteo="Treffer Deutsch"
             )
 
-        conteo = sustantivos[indice]["Treffer Deutsch"].split("/")
-        conteo = [int(c) for c in conteo]
+        conteo = sustantivos[indice]["Treffer Deutsch"].split(" ")[0]
+        aciertos, veces_presentado = map(int, conteo.split("/"))
         sustantivo = sustantivos[indice]
         instruccion = f"Traduce '{sustantivo['Übersetzung']}' "
         instruccion += f"\
@@ -512,7 +526,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         resp_correcta = respuesta in respuestas
 
         if resp_correcta:
-            conteo[0] += 1
+            aciertos += 1
             ejecuciones += 1
             print(
                 f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
@@ -543,8 +557,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                     msg_asistente, msg_usuario
                 )
 
-        conteo[1] += 1
-        sustantivos[indice]["Treffer Deutsch"] = f"{conteo[0]}/{conteo[1]}"
+        veces_presentado += 1
+        sustantivos[indice]["Treffer Deutsch"] = f"{aciertos}/{veces_presentado} {HOY_STR}"
         guardarDatos(sustantivos, "Sustantivos.csv", fieldnames)
         salir = input("¿Salir? (s/n): ")
 
@@ -576,8 +590,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                 columna_conteo="Treffer Deutsch"
             )
 
-        conteo = adjetivos[indice]["Treffer Deutsch"].split("/")
-        conteo = [int(c) for c in conteo]
+        conteo = adjetivos[indice]["Treffer Deutsch"].split(" ")[0]
+        aciertos, veces_presentado = map(int, conteo.split("/"))
         adjetivo = adjetivos[indice]
         instruccion = f"Traduce '{adjetivo['Übersetzung']}' "
         instruccion += f"\
@@ -593,7 +607,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         resp_correcta = respuesta in respuestas
 
         if resp_correcta:
-            conteo[0] += 1
+            aciertos += 1
             ejecuciones += 1
             print(
                 f"\n{colorear('¡Correcto!', ACIERTO)}\n- Respuestas válidas: " +
@@ -624,8 +638,8 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
                     msg_asistente, msg_usuario
                 )
 
-        conteo[1] += 1
-        adjetivos[indice]["Treffer Deutsch"] = f"{conteo[0]}/{conteo[1]}"
+        veces_presentado += 1
+        adjetivos[indice]["Treffer Deutsch"] = f"{aciertos}/{veces_presentado} {HOY_STR}"
         guardarDatos(adjetivos, "Adjetivos.csv", fieldnames)
         salir = input("¿Salir? (s/n): ")
 
