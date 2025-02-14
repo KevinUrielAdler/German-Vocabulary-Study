@@ -225,7 +225,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
         verbo = verbos[indice]
         respuestas = [v.strip() for v in verbo["Übersetzung"].split("/")]
 
-        for respuesta in respuestas:
+        for respuesta in respuestas[::-1]:
             if '(' in respuesta:
                 respuestas.remove(respuesta)
                 respuestas.append(respuesta.replace("(", "").replace(")", ""))
@@ -409,7 +409,7 @@ Por favor, explica brevemente por qué la respuesta incorrecta es incorrecta y p
             else:
                 sustantivo_aleman = f"{genero_s}{sustantivo['Femeninum']}"
 
-            for resp in respuestas:
+            for resp in respuestas[::-1]:
                 if "(a)" in resp:
                     resp_base = resp.replace("(a)", "").strip()
                     respuestas.remove(resp)

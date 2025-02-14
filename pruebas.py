@@ -95,7 +95,7 @@ def calc_peso_ajustado_exponencial(aciertos, veces_presentado, epsilon=0.1):
         return peso
 
 
-def calc_peso_ajustado_v2(aciertos, veces_presentado, epsilon=0.1):
+def calc_peso_ajustado_v2(aciertos, veces_presentado):
     if veces_presentado == 0:
         return 1
 
@@ -151,6 +151,21 @@ def calc_peso_ajustado_v4(aciertos, veces_presentado, dias_sin_practicar, lambda
     if veces_presentado == 0:
         return 1
 
+    # rendimiento = aciertos / veces_presentado
+    # peso = (
+    #     (
+    #         veces_presentado * (1 - rendimiento) +
+    #         (rendimiento / veces_presentado)
+    #     )
+    #     /
+    #     (1 + veces_presentado)
+    # )
+    # factor_olvido = 1 + (1 - math.exp(-lambda_factor * dias_sin_practicar)) # 1 + (1 - e^(-0.1 * 7))
+    # peso = (
+    #     (peso * factor_olvido)  # min: 0, max: 2
+    #     /
+    #     2
+    # )
     peso = (
         (
             veces_presentado**2 * (veces_presentado - aciertos) +
@@ -159,13 +174,6 @@ def calc_peso_ajustado_v4(aciertos, veces_presentado, dias_sin_practicar, lambda
         /
         (veces_presentado**2 * (1 + veces_presentado))
     )
-
-    # factor_olvido = 1 + (1 - math.exp(-lambda_factor * dias_sin_practicar))
-    # peso = (
-    #     (peso * factor_olvido)  # min: 0, max: 2
-    #     /
-    #     2
-    # )
     factor_olvido = 2 - math.exp(-lambda_factor * dias_sin_practicar)
     peso = peso * factor_olvido / 2
 
