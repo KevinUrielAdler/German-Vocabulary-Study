@@ -51,7 +51,10 @@ def esIgual(elemento1, elemento2):
 
     for s1 in significados1:
         for s2 in significados2:
-            if s1 == s2:
+            s1_limpio = s1.replace("(", "").replace(")", "")
+            s2_limpio = s2.replace("(", "").replace(")", "")
+
+            if s1_limpio == s2_limpio:
                 return True
 
     return False
