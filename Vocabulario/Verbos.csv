@@ -4,7 +4,7 @@ stimmen,stimmt,hat gestimmt,stimmte,stimmte,estar correcto/ser cierto,-,Akk,0/0 
 gelten,gilt,hat gegolten,galt,gälte,ser válido/considerar,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 stehen,steht,hat gestanden,stand,stünde,estar de pie,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 liegen,liegt,hat gelegen,lag,läge,estar acostado,-,Akk,0/0 11-02-24,2/4 11-02-24,0/0 11-02-24
-sitzen,sitzt,hat gesessen,saß,säße,estar sentado,-,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
+sitzen,sitzt,hat gesessen,saß,säße,estar sentado,-,Akk,0/0 11-02-24,1/2 11-02-24,1/1 15-02-25
 nahestehen,steht nahe,hat nahegestanden,stand nahe,stünde nahe,estar cerca de,-,Dat,0/0 11-02-24,2/3 11-02-24,2/2 11-02-24
 stecken,steckt,hat gesteckt,steckte,steckte,meter/estar metido,-,Akk,0/0 11-02-24,1/2 15-02-25,0/0 11-02-24
 hängen,hängt,hat gehängt/gehangen,hing,hinge,colgar/estar colgado,-,Akk,0/0 11-02-24,1/1 11-02-24,2/2 15-02-25
@@ -16,7 +16,7 @@ frieren,friert,hat gefroren,fror,fröre,tener frío,-,Akk,0/0 11-02-24,1/2 11-02
 berücksichtigen,berücksichtigt,hat berücksichtigt,berücksichtigte,berücksichtigte,tener en cuenta,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 merken,merkt,hat gemerkt,merkte,merkte,darse cuenta de,-,Akk,0/0 11-02-24,2/4 15-02-25,1/2 14-02-25
 hoffen,hofft,hat gehofft,hoffte,hoffte,esperar,de esperanza,Akk,0/0 11-02-24,1/1 11-02-24,1/2 11-02-24
-warten,wartet,hat gewartet,wartete,wartete,esperar,de tiempo,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+warten,wartet,hat gewartet,wartete,wartete,esperar,de tiempo,Akk,0/0 11-02-24,0/0 11-02-24,1/1 15-02-25
 führen,führt,hat geführt,führte,führte,llevar/dirigir,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 13-02-25
 fahren,fährt,ist gefahren,fuhr,führe,conducir,-,-,0/0 11-02-24,1/1 11-02-24,1/1 11-02-24
 mitnehmen,nimmt mit,hat mitgenommen,nahm mit,nähme mit,llevar consigo,-,Akk,0/0 11-02-24,1/2 11-02-24,1/2 11-02-24
@@ -50,7 +50,7 @@ weggehen,geht weg,ist weggegangen,ging weg,gänge weg,irse,-,-,0/0 11-02-24,0/0 
 denken,denkt,hat gedacht,dachte,dächte,pensar,-,-,1/2 11-02-24,0/0 11-02-24,2/2 14-02-25
 meinen,meint,hat gemeint,meinte,meinte,opinar,-,Akk,0/0 11-02-24,1/2 14-02-25,2/3 15-02-25
 nachdenken,denkt nach,hat nachgedacht,dachte nach,dächte nach,reflexionar,pensar detenidamente,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-überlegen,überlegt,hat überlegt,überlegte,überlegte,reflexionar,considerar o ponderar algo,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
+überlegen,überlegt,hat überlegt,überlegte,überlegte,reflexionar,considerar o ponderar algo,Akk,0/0 11-02-24,1/1 15-02-25,1/2 11-02-24
 studieren,studiert,hat studiert,studierte,studierte,estudiar,sólo nivel superior,Acc,1/1 11-02-24,1/1 14-02-25,0/0 11-02-24
 wählen,wählt,hat gewählt,wählte,wählte,elegir,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 tun,tut,hat getan,tat,täte,hacer,-,Akk,0/0 11-02-24,1/1 11-02-24,1/1 11-02-24
@@ -60,7 +60,7 @@ einkaufen,kauft ein,hat eingekauft,kaufte ein,kaufte ein,hacer la compra,-,Akk,0
 wandern,wandert,ist gewandert,wanderte,wanderte,hacer senderismo,-,-,1/2 11-02-24,1/2 11-02-24,1/2 15-02-25
 umsteigen,steigt um,ist umgestiegen,stieg um,stiege um,hacer transbordo,-,Akk,1/3 14-02-25,0/0 11-02-24,1/2 11-02-24
 turnen,turnt,hat geturnt,turnte,turnte,hacer gimnasia,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-basteln,bastelt,hat gebastelt,bastelte,bastelte,hacer manualidades,-,Akk,0/0 11-02-24,1/2 15-02-25,0/0 11-02-24
+basteln,bastelt,hat gebastelt,bastelte,bastelte,hacer manualidades,-,Akk,0/0 11-02-24,1/2 15-02-25,1/2 15-02-25
 wehtun,tut weh,hat wehgetan,tat weh,täte weh,doler/hacer daño,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
 schmerzen,schmerzt,hat geschmerzt,schmerzte,schmerzte,doler,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 streiken,streikt,hat gestreikt,streikte,streikte,hacer huelga,-,-,1/4 11-02-24,1/2 11-02-24,0/0 11-02-24
@@ -70,7 +70,7 @@ aufmachen,macht auf,hat aufgemacht,machte auf,machte auf,abrir,general,Akk,0/0 1
 öffnen,öffnet,hat geöffnet,öffnete,öffnete,abrir,más formal y técnico,Akk,0/0 11-02-24,1/1 11-02-24,1/2 15-02-25
 anmachen,macht an,hat angemacht,machte an,machte an,encender,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 ausmachen,macht aus,hat ausgemacht,machte aus,machte aus,apagar/concertar,-,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
-abstellen,stellt ab,hat abgestellt,stelle ab,stelle ab,apagar/estacionar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+abstellen,stellt ab,hat abgestellt,stelle ab,stelle ab,apagar/estacionar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 15-02-25
 parken,parkt,hat geparkt,parkte,parkte,aparcar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/3 11-02-24
 sagen,sagt,hat gesagt,sagte,sagte,decir,-,Dat,0/0 11-02-24,0/0 11-02-24,2/3 13-02-25
 reden,redet,hat geredet,redete,redete,hablar/conversar,-,Akk,0/0 11-02-24,2/2 14-02-25,0/0 11-02-24
@@ -83,7 +83,7 @@ klingeln,klingelt,hat geklingelt,klingelte,klingelte,llamar,sonar un timbre o te
 nennen,nennt,hat genannt,nannte,nänne,llamar,nombrar algo,AkkDat,0/0 11-02-24,1/1 11-02-24,1/2 14-02-25
 anreden,anredet,hat angeredet,anredete,anredete,dirigirse a,alguien,Akk,0/0 11-02-24,1/2 14-02-25,1/2 11-02-24
 ansprechen,spricht an,hat angesprochen,sprach an,spräche an,dirigirse a,abordar un tema o persona,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
-schlafen,schläft,hat geschlafen,schlief,schliefe,dormir,-,-,0/0 11-02-24,1/1 11-02-24,0/0 11-02-24
+schlafen,schläft,hat geschlafen,schlief,schliefe,dormir,-,-,0/0 11-02-24,1/1 11-02-24,1/1 15-02-25
 ausschlafen,schläft aus,hat ausgeschlafen,schlief aus,schlief aus,dormir suficiente,-,-,0/0 11-02-24,1/2 11-02-24,1/2 13-02-25
 einschlafen,schläft ein,ist eingeschlafen,schlief ein,schlief ein,quedarse dormido,el proceso de dormirse,-,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
 verschlafen,verschläft,hat verschlafen,verschlief,verschlüfe,quedarse dormido,el dormir de más,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -124,15 +124,15 @@ annehmen,nimmt an,hat angenommen,nahm an,nähme an,aceptar,aceptar algo que se o
 ablehnen,lehnt ab,hat abgelehnt,lehnte ab,lehnte ab,rechazar,-,Akk,0/0 11-02-24,2/4 11-02-24,1/2 11-02-24
 programmieren,programmiert,hat programmiert,programmierte,programmierte,programar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 11-02-24
 antworten,antwortet,hat geantwortet,antwortete,antwortete,responder,-,Akk,0/0 11-02-24,1/1 14-02-25,1/1 14-02-25
-beantworten,beantwortet,hat beantwortet,beantwortete,beantwortete,responder a,-,Akk,0/0 11-02-24,1/2 11-02-24,2/2 14-02-25
+beantworten,beantwortet,hat beantwortet,beantwortete,beantwortete,responder a,-,Akk,0/0 11-02-24,2/3 15-02-25,2/2 14-02-25
 einsagen,sagt ein,hat eingesagt,sagte ein,sagte ein,soplar/responder por otro,-,-,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 zählen,zählt,hat gezählt,zählte,zählte,contar,cantidades,Akk,0/0 11-02-24,1/1 11-02-24,3/4 15-02-25
 erzählen,erzählt,hat erzählt,erzählte,erzählte,contar,narrar,Akk,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
-mitzählen,zählt mit,hat mitgezählt,zählte mit,zählte mit,contar con,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+mitzählen,zählt mit,hat mitgezählt,zählte mit,zählte mit,contar con,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 15-02-25
 reisen,reist,ist gereist,reiste,reiste,viajar,general,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 verreisen,verreist,ist verreist,verreiste,verreiste,viajar,irse de viaje,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 räumen,räumt,hat geräumt,räumte,räumte,limpiar,despejar/ordenar,Akk,0/0 11-02-24,1/2 13-02-25,1/2 11-02-24
-putzen,putzt,hat geputzt,putzte,putzte,limpiar,limpiar algo,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
+putzen,putzt,hat geputzt,putzte,putzte,limpiar,limpiar algo,Akk,0/0 11-02-24,1/2 11-02-24,1/2 15-02-25
 reinigen,reinigte,hat gereinigt,reinigte,reinigte,limpiar,limpiar algo,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 aufräumen,räumt auf,hat aufgeräumt,räumte auf,räumte auf,ordenar,ordenar un espacio,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 ordnen,ordnet,hat geordnet,ordnete,ordnete,ordenar/organizar,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -143,7 +143,7 @@ auffordern,fordert auf,hat aufgefordert,forderte auf,förderte auf,invitar/pedir
 einladen,lädt ein,hat eingeladen,lud ein,lüde ein,invitar,-,AkkDat,0/0 11-02-24,0/0 11-02-24,2/4 11-02-24
 bleiben,bleibt,ist geblieben,blieb,bliebe,permanecer en,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 passieren,passiert,ist passiert,passierte,passierte,suceder,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-geschehen,geschieht,ist geschehen,geschah,geschähe,suceder,-,-,0/0 11-02-24,1/2 11-02-24,2/2 15-02-25
+geschehen,geschieht,ist geschehen,geschah,geschähe,suceder,-,-,0/0 11-02-24,2/5 15-02-25,2/2 15-02-25
 werden,wird,ist geworden,wurde,würde,convertirse en,-,-,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 arbeiten,arbeitet,hat gearbeitet,arbeitete,arbeitete,trabajar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/2 11-02-24
 lesen,liest,hat gelesen,las,läse,leer,-,Akk,0/0 11-02-24,0/0 11-02-24,4/4 14-02-25
@@ -152,7 +152,7 @@ durchlesen,liest durch,hat durchgelesen,las durch,läse durch,leer por completo,
 wechseln,wechselt,hat gewechselt,wechselte,wechselte,cambiar,entre cosas,Akk,0/0 11-02-24,2/4 11-02-24,1/1 11-02-24
 ändern,ändert,hat geändert,änderte,änderte,cambiar,modificar algo,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 austauschen,tauscht aus,hat ausgetauscht,tauschte aus,tauschte aus,cambiar,intercambiar,Akk,0/0 11-02-24,1/2 11-02-24,1/2 11-02-24
-lassen,lässt,hat gelassen,ließ,liesse,dejar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
+lassen,lässt,hat gelassen,ließ,liesse,dejar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/2 15-02-25
 verlassen,verlässt,hat verlassen,verließ,verließe,abandonar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 15-02-25
 hinterlassen,hinterlässt,hat hinterlassen,hinterließ,hinterließe,dejar atrás,-,Akk,1/4 11-02-24,0/0 11-02-24,1/1 14-02-25
 abgewöhnen,gewöhnt ab,hat abgewöhnt,gewöhnte ab,gewöhnte ab,dejar un hábito,-,-,0/0 11-02-24,2/5 14-02-25,1/2 14-02-25
@@ -160,13 +160,13 @@ mögen,mag,hat gemocht,mochte,möchte,gustar,general,Akk,0/0 11-02-24,0/0 11-02-
 gefallen,gefällt,hat gefallen,gefiel,gefiel,gustar,encontrar algo agradable,Dat,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 treten,tritt,ist getreten,trat,träte,entrar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 betreten,betritt,hat betreten,betrat,betrat,entrar en,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
-heißen,heißt,hat geheißen,hiess,hiess,llamarse,-,Akk,0/0 11-02-24,1/1 14-02-25,1/1 11-02-24
-versprechen,verspricht,hat versprochen,versprach,verspräche,prometer,-,Akk,1/2 14-02-25,0/0 11-02-24,1/3 11-02-24
+heißen,heißt,hat geheißen,hiess,hiess,llamarse,-,Akk,0/0 11-02-24,2/3 15-02-25,1/1 11-02-24
+versprechen,verspricht,hat versprochen,versprach,verspräche,prometer,-,Akk,1/2 14-02-25,0/0 11-02-24,2/5 15-02-25
 spielen,spielt,hat gespielt,spielte,spielte,jugar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
 mitspielen,spielt mit,hat mitgespielt,spielte mit,spielte mit,jugar con/en,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 tanzen,tanzt,hat getanzt,tanzte,tanzte,bailar,-,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
 werfen,wirft,hat geworfen,worfen,würfe,tirar/lanzar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 14-02-25
-wegwerfen,wirft weg,hat weggeworfen,warf weg,würfe weg,tirar/botar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
+wegwerfen,wirft weg,hat weggeworfen,warf weg,würfe weg,tirar/botar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 15-02-25
 würfeln,würfelt,hat gewürfelt,würfelte,würfelte,tirar los dados,-,Akk,1/1 11-02-25,1/3 15-02-25,3/6 14-02-25
 schreiben,schreibt,hat geschrieben,schrieb,schriebe,escribir,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
 abschreiben,schreibt ab,hat abgeschrieben,schrieb ab,schriebe ab,copiar,-,Akk,0/0 11-02-24,1/3 14-02-25,1/2 11-02-24
@@ -181,7 +181,7 @@ einziehen,zieht ein,ist eingezogen,zog ein,zöge ein,mudarse,ocupar un lugar,Akk
 ausziehen,zieht aus,ist ausgezogen,zog aus,zöge aus,mudarse/desvestirse,desocupar un lugar,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 anziehen,zieht an,hat angezogen,zog an,zöge an,vestir,-,Akk,0/0 11-02-24,1/2 14-02-25,2/4 14-02-25
 anfangen,fängt an,hat angefangen,fing an,finge an,empezar,no necesita mit,Akk,0/0 11-02-24,1/1 14-02-25,0/0 11-02-24
-beginnen,beginnt,hat begonnen,begann,begönne,empezar,si necesita mit,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+beginnen,beginnt,hat begonnen,begann,begönne,empezar,si necesita mit,Akk,0/0 11-02-24,1/1 15-02-25,0/0 11-02-24
 steigen,steigt,ist gestiegen,stieg,stiege,subir,general,Akk,0/0 11-02-24,0/0 11-02-24,3/4 14-02-25
 einsteigen,steigt ein,ist eingestiegen,stieg ein,stiege ein,subir a un vehículo,-,Akk,0/0 11-02-24,1/2 13-02-25,1/2 14-02-25
 aussteigen,steigt aus,ist ausgestiegen,stieg aus,stiege aus,bajar de un vehículo,-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 11-02-24
@@ -195,7 +195,7 @@ produzieren,produziert,hat produziert,produzierte,produzierte,producir,-,Akk,0/0
 anstellen,anstellt,hat angestellt,stelle an,stelle an,contratar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 verstehen,versteht,hat verstanden,verstand,verstünde,entender,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 aufstehen,steht auf,ist aufgestanden,stand auf,stünde auf,levantarse,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-setzen,setzt,hat gesetzt,setzte,setzte,sentar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+setzen,setzt,hat gesetzt,setzte,setzte,sentar,-,Akk,0/0 11-02-24,1/2 15-02-25,0/0 11-02-24
 ersetzen,ersetzt,hat ersetzt,ersetzte,ersetzte,reemplazar,-,Akk,0/0 11-02-24,1/2 14-02-25,1/2 11-02-24
 übersetzen,übersetzt,hat übersetzt,übersetzte,übersetzte,traducir,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 üben,übt,hat geübt,übte,übte,practicar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
@@ -208,7 +208,7 @@ besuchen,besucht,hat besucht,besuchte,besuchte,visitar,-,Akk,0/0 11-02-24,1/1 11
 aussuchen,sucht aus,hat ausgesucht,suchte aus,suchte aus,escoger,-,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
 folgen,folgt,ist gefolgt,folgte,folgte,seguir,a alguien o algo,Dat,0/0 11-02-24,1/1 11-02-24,0/0 11-02-24
 weitersuchen,sucht weiter,hat weitergesucht,suchte weiter,suchte weiter,seguir buscando,-,Akk,0/0 11-02-24,1/1 14-02-25,1/1 15-02-25
-weiterfahren,fährt weiter,ist weitergefahren,fuhr weiter,führe weiter,seguir conduciendo,-,-,0/0 11-02-24,1/2 11-02-24,1/1 14-02-25
+weiterfahren,fährt weiter,ist weitergefahren,fuhr weiter,führe weiter,seguir conduciendo,-,-,0/0 11-02-24,1/2 11-02-24,2/2 15-02-25
 schicken,schickt,hat geschickt,schickte,schickte,enviar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 fischen,fischt,hat gefischt,fischte,fischte,pescar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 baden,badet,hat gebadet,badete,badete,bañarse,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
@@ -255,7 +255,7 @@ fragen,fragt,hat gefragt,fragte,fragte,preguntar,-,Akk,0/0 11-02-24,1/1 14-02-25
 gewinnen,gewinnt,hat gewonnen,gewann,gewänne,ganar,-,Akk,0/0 11-02-24,1/2 11-02-24,1/2 14-02-25
 verdienen,verdient,hat verdient,verdiente,verdiente,ganar dinero,-,Akk,0/0 11-02-24,1/2 11-02-24,2/3 14-02-25
 gießen,gießt,hat gegossen,goss,gösse,regar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-lieben,liebt,hat geliebt,liebte,liebte,amar,-,Akk,1/1 11-02-24,0/0 11-02-24,1/1 11-02-24
+lieben,liebt,hat geliebt,liebte,liebte,amar,-,Akk,1/1 11-02-24,1/1 15-02-25,1/1 11-02-24
 treffen,trifft,hat getroffen,traf,träfe,encontrarse con alguien,-,Akk,0/0 11-02-24,1/2 11-02-24,1/1 14-02-25
 zuflüstern,flüstert zu,hat zugeflüstert,flüsterte zu,flüsterte zu,susurrar,-,Dat,0/0 11-02-24,1/2 11-02-24,1/2 14-02-25
 flüstern,flüstert,hat geflüstert,flüsterte,flüsterte,susurrar,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -267,7 +267,7 @@ quatschen,quatscht,hat gequatscht,quatschte,quatschte,charlar informalmente,-,-,
 vergessen,vergisst,hat vergessen,vergaß,vergäße,olvidar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 14-02-25
 erinnern,erinnert,hat erinnert,erinnerte,erinnerte,recordar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 verlieren,verliert,hat verloren,verlor,verlöre,perder,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
-passen,passt,hat gepasst,passte,passte,quedar bien,-,Akk,0/0 11-02-24,1/2 14-02-25,0/0 11-02-24
+passen,passt,hat gepasst,passte,passte,quedar bien,-,Akk,0/0 11-02-24,1/2 14-02-25,1/2 15-02-25
 verabreden,verabredet,hat verabredet,verabredete,verabredete,quedar con/citar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 14-02-25
 verpassen,verpasst,hat verpasst,verpasste,verpasste,perderse,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 ausgeben,gibt aus,hat ausgegeben,gab aus,gäbe aus,gastar,-,AkkDat,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
@@ -276,7 +276,7 @@ helfen,hilft,hat geholfen,half,hülfe,ayudar,-,Dat,0/0 11-02-24,0/0 11-02-24,1/1
 springen,springt,ist gesprungen,sprang,spränge,saltar,-,-,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 durcheinanderbringen,bringt durcheinander,hat durcheinandergebracht,brachte durcheinander,brächte durcheinander,confundir/desordenar,-,AkkDat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 fliegen,fliegt,ist geflogen,flog,flöge,volar,-,-,0/0 11-02-24,2/2 11-02-24,0/0 11-02-24
-laufen,läuft,ist gelaufen,lief,liefe,caminar,-,-,0/0 11-02-24,0/0 11-02-24,1/1 15-02-25
+laufen,läuft,ist gelaufen,lief,liefe,caminar,-,-,0/0 11-02-24,1/1 15-02-25,1/1 15-02-25
 unterrichten,unterrichtet,hat unterrichtet,unterrichtete,unterrichtete,enseñar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
 weglaufen,läuft weg,ist weggelaufen,lief weg,liefe weg,echar a correr,-,-,0/0 11-02-24,1/2 14-02-25,0/0 11-02-24
 rennen,rennt,ist gerannt,rannte,ränne,correr,general,-,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
@@ -321,7 +321,7 @@ informieren,informiert,hat informiert,informierte,informierte,informar,-,Akk,0/0
 berichten,berichtet,hat berichtet,berichtete,berichtete,informar,-,Akk,1/2 11-02-24,0/0 11-02-24,1/1 11-02-24
 melden,meldet,hat gemeldet,meldete,meldete,informar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 erkündigen,erkündigt,hat erkündigt,erkündigte,erkündigte,proclamar/anunciar,-,-,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
-ankündigen,kündigt an,hat angekündigt,kündigte an,kündigte an,anunciar,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+ankündigen,kündigt an,hat angekündigt,kündigte an,kündigte an,anunciar,-,-,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 mitteilen,teilt mit,hat mitgeteilt,teilte mit,teilte mit,comunicar/informar,-,Dat,1/2 14-02-25,1/2 11-02-24,1/2 11-02-24
 verständigen,verständigt,hat verständigt,verständigte,verständigte,informar/notificar,-,-,1/1 11-02-24,1/2 11-02-24,1/2 14-02-25
 kontrollieren,kontrolliert,hat kontrolliert,kontrollierte,kontrollierte,controlar,-,Akk,0/0 11-02-24,1/1 11-02-24,0/0 11-02-24
@@ -348,10 +348,10 @@ empfehlen,empfiehlt,hat empfohlen,empfahl,empföhle,recomendar,-,AkkDat,0/0 11-0
 buchsstabieren,buchstabiert,hat buchstabiert,buchstabierte,buchstabierte,deletrear,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-25
 empfunden,empfindet,hat empfunden,empfand,empfände,sentir,sentimientos,Akk,1/4 14-02-25,1/2 15-02-25,1/2 11-02-24
 fühlen,fühlt,hat gefühlt,fühlte,fühlte,sentir,sensaciones físicas o emocionales,Akk,0/0 11-02-24,1/1 11-02-24,0/0 11-02-24
-zunicken,zunickt,hat zugenickt,zunickte,zunickte,asentir,-,Akk,0/0 11-02-24,1/2 11-02-24,1/2 11-02-24
+zunicken,zunickt,hat zugenickt,zunickte,zunickte,asentir,-,Akk,0/0 11-02-24,2/4 15-02-25,1/2 11-02-24
 benuzten,benuzt,hat benuzt,benuzte,benuzte,usar,general,Akk,0/0 11-02-24,0/0 11-02-24,1/2 13-02-25
 verwenden,verwendet,hat verwendet,verwendete,verwendete,usar,más formal o técnico,Akk,0/0 11-02-24,0/0 11-02-24,2/4 14-02-25
-duzen,duzt,hat geduzt,duzte,duzte,tutear,-,Akk,0/0 11-02-24,0/0 11-02-24,1/1 14-02-25
+duzen,duzt,hat geduzt,duzte,duzte,tutear,-,Akk,0/0 11-02-24,0/0 11-02-24,2/2 15-02-25
 siezen,siezt,hat gesiezt,siezte,siezte,tratar de usted,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 vertrauen,vertraut,hat vertraut,vertraute,vertraute,confiar,-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 umarmen,umarmt,hat umarmt,umarmte,umarmte,abrazar,-,Akk,1/2 11-02-24,1/2 11-02-24,1/2 11-02-24
@@ -363,16 +363,16 @@ vorschlagen,schlägt vor,hat vorgeschlagen,schlug vor,schlüge vor,sugerir,-,Akk
 erreichen,erreicht,hat erreicht,erreichte,erreichte,lograr/alcanzar,general,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 schaffen,schafft,hat geschafft,schaffte,schaffte,lograr,lograr algo con esfuerzo,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 kritisieren,kritisiert,hat kritisiert,kritisierte,kritisierte,críticar,-,Akk,0/0 11-02-24,0/0 11-02-24,2/3 11-02-24
-lügen,lügt,hat gelogen,lügte,lügte,mentir,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
+lügen,lügt,hat gelogen,lügte,lügte,mentir,-,Akk,0/0 11-02-24,1/2 15-02-25,1/2 11-02-24
 verlangen,verlangt,hat verlangt,verlangte,verlangte,exigir,-,Akk,0/0 11-02-24,1/2 11-02-24,1/3 14-02-25
-fordern,fordert,hat gefordert,forderte,forderte,exigir,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+fordern,fordert,hat gefordert,forderte,forderte,exigir,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 bewerben,bewirbt,hat beworben,bewarb,bewürbe,solicitar/postularse,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 beantragen,beantragt,hat beantragt,beantragte,beantragte,solicitar,solicitar algo formalmente,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 dauern,dauert,hat gedauert,dauerte,dauerte,durar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 kämpfen,kämpft,hat gekämpft,kämpfte,kämpfte,pelear,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 lösen,löst,hat gelöst,löste,löste,resolver,-,Akk,0/0 11-02-24,1/2 11-02-24,2/4 11-02-24
-sollen,soll,hat gesollt,sollte,sollte,deber,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-aufregen,regt auf,hat aufgeregt,regte auf,regte auf,alterar/excitar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+sollen,soll,hat gesollt,sollte,sollte,deber,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
+aufregen,regt auf,hat aufgeregt,regte auf,regte auf,alterar/excitar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 ausruhen,ruht aus,hat ausgeruht,ruhte aus,ruhte aus,descansar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 13-02-25
 sich beschweren,beschwert sich,hat sich beschwert,beschwerte sich,beschwerte sich,quejarse,-,Dat,0/0 11-02-24,1/2 14-02-25,1/2 11-02-24
 klagen,klagt,hat geklagt,klagte,klagte,quejarse,-,-,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
@@ -387,15 +387,15 @@ anmelden,meldet an,hat angemeldet,meldete an,meldete an,registrarse,-,Akk,0/0 11
 prüfen,prüft,hat geprüft,prüfte,prüfte,examinar,-,Akk,0/0 11-02-24,1/3 14-02-25,2/5 11-02-24
 untersuchen,untersucht,hat untersucht,untersuchte,untersuchte,examinar,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 sorgen,sorgt,hat gesorgt,sorgte,sorgte,preocuparse por,-,Akk,0/0 11-02-24,1/2 13-02-25,1/2 11-02-24
-tanken,tankt,hat getankt,tankte,tankte,llenar el tanque,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
+tanken,tankt,hat getankt,tankte,tankte,llenar el tanque,-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 15-02-25
 verbrauchen,verbraucht,hat verbraucht,verbrauchte,verbrauchte,consumir,-,Akk,0/0 11-02-24,1/2 11-02-24,1/2 14-02-25
-warnen,warnt,hat gewarnt,warnte,warnte,advertir,-,Akk,0/0 11-02-24,1/2 14-02-25,1/2 11-02-24
+warnen,warnt,hat gewarnt,warnte,warnte,advertir,-,Akk,0/0 11-02-24,1/2 14-02-25,2/4 15-02-25
 sich entschuldigen,entschuldigt sich,hat sich entschuldigt,entschuldigte sich,entschuldigte sich,disculparse,-,-,1/2 14-02-25,0/0 11-02-24,1/2 11-02-24
 erziehen,erzieht,hat erzogen,erzog,erzüge,educar,-,Akk,0/0 11-02-24,0/0 11-02-24,3/6 15-02-25
 hassen,hasst,hat gehasst,hasste,hasste,odiar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 sich kümmern,kümmert sich,hat sich gekümmert,kümmerte sich,kümmerte sich,ocuparse de,-,Akk,0/1 11-02-24,0/0 11-02-24,1/2 11-02-24
 sich langweilen,langweilt sich,hat sich gelangweilt,langweilte sich,langweilte sich,aburrirse,-,Akk,0/0 11-02-24,0/0 11-02-24,1/3 11-02-24
-schlagen,schlägt,hat geschlagen,schlug,schlüge,golpear,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
+schlagen,schlägt,hat geschlagen,schlug,schlüge,golpear,-,Akk,0/0 11-02-24,1/2 15-02-25,1/2 11-02-24
 sparen,spart,hat gespart,sparte,sparte,ahorrar,-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 sich streiten,streitet sich,hat sich gestritten,stritt sich,stritte sich,pelearse,-,-,1/3 14-02-25,0/0 11-02-24,2/4 14-02-25
 töten,tötet,hat getötet,tötete,tötete,matar,-,Akk,1/1 14-02-25,1/1 11-02-24,0/0 11-02-24
@@ -428,7 +428,7 @@ jammern,jammert,hat gejammert,jammerte,jammerte,lloriquear,-,-,0/0 11-02-24,0/0 
 raunen,raunt,hat geraunt,raunte,raunte,murmurar,-,-,0/0 11-02-24,1/2 11-02-24,1/2 11-02-24
 nuscheln,nuschelt,hat genuschelt,nuschelte,nuschelte,murmurar entre dientes,-,-,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 lästern,lästert,hat gelästert,lästerte,lästerte,murmurar/calumniar,-,-,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
-seufzen,seufzt,hat geseufzt,seufzte,seufzte,suspirar,-,-,0/0 11-02-24,1/2 13-02-25,0/0 11-02-24
+seufzen,seufzt,hat geseufzt,seufzte,seufzte,suspirar,-,-,0/0 11-02-24,1/2 13-02-25,1/2 15-02-25
 äußern,äußert,hat geäußert,äußerte,äußerte,expresar,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 ausatmen,atmet aus,hat ausgeatmet,atmete aus,atmete aus,exhalar,-,-,0/0 11-02-24,3/7 13-02-25,0/0 11-02-24
 stottern,stottert,hat gestottert,stotterte,stotterte,tartamudear,-,-,0/0 11-02-24,1/2 11-02-24,1/2 15-02-25
@@ -443,7 +443,7 @@ ermahnen,ermahnt,hat ermahnt,ermahnte,ermahnte,amonestar,-,-,0/0 11-02-24,0/0 11
 verletzen,verletzt,hat verletzt,verletzte,verletzte,lastimar/herir,-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 brüllen,brüllt,hat gebrüllt,brüllte,brüllte,gritar,-,-,0/0 11-02-24,1/2 11-02-24,1/2 15-02-25
 grölen,grölt,hat gegrölt,grölte,grölte,gritar fuerte,-,-,0/0 11-02-24,1/2 14-02-25,1/2 11-02-24
-kreischen,kreischt,hat gekreischt,kreischte,kreischte,gritar chillando,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+kreischen,kreischt,hat gekreischt,kreischte,kreischte,gritar chillando,-,-,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 stöhnen,stöhnt,hat gestöhnt,stöhnte,stöhnte,gimotear,-,-,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 jubeln,jubelt,hat gejubelt,jubelte,jubelte,vitorear,-,-,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 unterdrücken,unterdrückt,hat unterdrückt,unterdrückte,unterdrückte,reprimir,-,Akk,1/3 11-02-24,0/0 11-02-24,1/2 11-02-24
@@ -474,22 +474,22 @@ zussamenleben,lebt zusammen,hat zusammengelebt,lebte zusammen,lebte zusammen,con
 gernhaben,hat gern,hat gerngehabt,hatte gern,hätte gern,gustar/agradar,-,Akk,0/1 14-02-25,0/0 11-02-24,0/0 11-02-24
 schmusen,schmust,hat geschmust,schmuste,schmuste,acurrucarse/besarse,con caricias,Akk,0/0 11-02-24,0/0 11-02-24,2/4 15-02-25
 verführen,verführt,hat verführt,verführte,verführte,seducir,-,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
-sehnen,sehnt,hat gesehnt,sehnte,sehnte,anhelar/añorar,-,Akk,1/2 11-02-24,0/0 11-02-24,1/2 15-02-25
+sehnen,sehnt,hat gesehnt,sehnte,sehnte,anhelar/añorar,-,Akk,1/2 11-02-24,1/2 15-02-25,1/2 15-02-25
 abstimmen (über),stimmt ab,hat abgestimmt,stimmte ab,stimmte ab,votar (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,1/3 11-02-24
 stimmen (für),stimmt,hat gestimmt,stimmte,stimmte,votar (por),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 stimmen (gegen),stimmt,hat gestimmt,stimmte,stimmte,votar (en contra de),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 achten (auf),achtet,hat geachtet,achtete,achtete,prestar atención (a)/cuidar (de),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
-ankommen (auf),kommt an,ist angekommen,kam an,käme an,depender (de),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+ankommen (auf),kommt an,ist angekommen,kam an,käme an,depender (de),-,Akk,0/0 11-02-24,0/0 11-02-24,1/3 15-02-25
 antworten (auf),antwortet,hat geantwortet,antwortete,antwortete,responder (a),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 sich anpassen (an),passt sich an,hat sich angepasst,passte sich an,passte sich an,adaptarse (a),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
-sich ärgern (über),ärgert sich,hat sich geärgert,ärgerte sich,ärgerte sich,enojarse (por),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-aufpassen (auf),passt auf,hat aufgepasst,passte auf,passte auf,cuidar (de),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+sich ärgern (über),ärgert sich,hat sich geärgert,ärgerte sich,ärgerte sich,enojarse (por),-,Akk,0/0 11-02-24,1/2 15-02-25,0/0 11-02-24
+aufpassen (auf),passt auf,hat aufgepasst,passte auf,passte auf,cuidar (de),-,Akk,0/0 11-02-24,1/2 15-02-25,1/2 15-02-25
 sich aufregen (über),regt sich auf,hat sich aufgeregt,regte sich auf,regte sich auf,alterarse (por),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 ausgeben (für),gibt aus,hat ausgegeben,gab aus,gäbe aus,gastar (en),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 sich bedanken (für),bedankt sich,hat sich bedankt,bedankte sich,bedankte sich,agradecer (por),-,Akk,0/0 11-02-24,0/0 11-02-24,2/3 15-02-25
 sich beklagen (über),beklagt sich,hat sich beklagt,beklagte sich,beklagte sich,quejarse (de),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 sich bemühen (um),bemüht sich,hat sich bemüht,bemühte sich,bemühte sich,esforzarse (por),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-beraten (über),berät,hat beraten,beriet,beriete,asesorar (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+beraten (über),berät,hat beraten,beriet,beriete,asesorar (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 berichten (über),berichtet,hat berichtet,berichtete,berichtete,informar (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 beschliessen (über),beschließt,hat beschlossen,beschloss,beschlösse,decidir (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 sich beschweren (über),beschwert sich,hat sich beschwert,beschwerte sich,beschwerte sich,quejarse (de),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -498,7 +498,7 @@ sich beziehen (auf),bezieht sich,hat sich bezogen,bezog sich,bezöge sich,referi
 bitten (um),bittet,hat gebeten,bat,bäte,pedir (algo),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 bürgen (für),bürgt,hat gebürgt,bürgte,bürgte,garantizar (por),-,Akk,0/0 11-02-24,1/2 14-02-25,1/2 14-02-25
 danken (für),dankt,hat gedankt,dankte,dankte,agradecer (por),-,Akk,0/0 11-02-24,1/2 14-02-25,0/0 11-02-24
-denken (an),denkt,hat gedacht,dachte,dächte,pensar (en),-,Akk,1/4 14-02-25,0/0 11-02-24,0/0 11-02-24
+denken (an),denkt,hat gedacht,dachte,dächte,pensar (en),-,Akk,1/4 14-02-25,1/2 15-02-25,0/0 11-02-24
 diskutieren (über),diskutiert,hat diskutiert,diskutierte,diskutierte,discutir (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 14-02-25
 sich drehen (um),dreht sich,hat sich gedreht,drehte sich,drehte sich,girar (en torno a),-,Akk,0/0 11-02-24,1/3 14-02-25,2/5 15-02-25
 sich eignen (für),eignet sich,hat sich geeignet,eignete sich,eignete sich,ser adecuado (para),-,Akk,1/2 14-02-25,0/0 11-02-24,1/3 14-02-25
@@ -508,7 +508,7 @@ erinnern (an),erinnert,hat erinnert,erinnerte,erinnerte,recordar (a),-,Akk,0/0 1
 sich erinnern (an),erinnert sich,hat sich erinnert,erinnerte sich,erinnerte sich,acordarse (de),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 ersetzen (durch),ersetzt,hat ersetzt,ersetzte,ersetzte,sustituir (por),-,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
 folgen (auf),folgt,ist gefolgt,folgte,folgte,seguir (a),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-sich freuen (auf),freut sich,hat sich gefreut,freute sich,freute sich,alegrarse (por),futuro,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+sich freuen (auf),freut sich,hat sich gefreut,freute sich,freute sich,alegrarse (por),futuro,Akk,0/0 11-02-24,1/1 15-02-25,0/0 11-02-24
 sich freuen (über),freut sich,hat sich gefreut,freute sich,freute sich,alegrarse (por),presente/pasado,Akk,0/1 11-02-24,0/0 11-02-24,1/2 13-02-25
 garantieren (für),garantiert,hat garantiert,garantierte,garantierte,garantizar (por),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 es gehen (um),es geht,es ist gegangen,es ging,es gänge,tratarse (de),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -528,8 +528,8 @@ sich interessieren (für),interessiert sich,hat sich interessiert,interessierte 
 kämpfen (für),kämpft,hat gekämpft,kämpfte,kämpfte,luchar (por),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
 kämpfen (gegen),kämpft,hat gekämpft,kämpfte,kämpfte,luchar (contra),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 kämpfen (um),kämpft,hat gekämpft,kämpfte,kämpfte,luchar (por),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-klagen (über),klagt,hat geklagt,klagte,klagte,quejarse (de),-,Akk,0/0 11-02-24,0/0 11-02-24,2/4 14-02-25
-kommen (auf),kommt,ist gekommen,kam,käme,llegar (a),idea/resultado,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+klagen (über),klagt,hat geklagt,klagte,klagte,quejarse (de),-,Akk,0/0 11-02-24,1/2 15-02-25,2/4 14-02-25
+kommen (auf),kommt,ist gekommen,kam,käme,llegar (a),idea/resultado,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 sich konzentrieren (auf),konzentriert sich,hat sich konzentriert,konzentrierte sich,konzentrierte sich,concentrarse (en),-,Akk,0/0 11-02-24,0/0 11-02-24,1/4 15-02-25
 sich kümmern (um),kümmert sich,hat sich gekümmert,kümmerte sich,kümmerte sich,ocuparse (de),-,Akk,0/0 11-02-24,1/2 15-02-25,0/0 11-02-24
 lächeln (über),lächelt,hat gelächelt,lächelte,lächelte,sonreír (por),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -551,7 +551,7 @@ sprechen (über),spricht,hat gesprochen,sprach,spräche,hablar (sobre),-,Akk,0/0
 staunen (über),staunt,hat gestaunt,staunte,staunte,asombrarse (de),-,Akk,0/0 11-02-24,0/0 11-02-24,1/4 11-02-24
 stehen (auf),steht,hat gestanden,stand,stünde,gustar mucho (de),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 sterben (für),stirbt,ist gestorben,starb,stürbe,morir (por),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
-streiten (über),streitet,hat gestritten,stritt,stritte,discutir (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+streiten (über),streitet,hat gestritten,stritt,stritte,discutir (sobre),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 sich streiten (um),streitet sich,hat sich gestritten,stritt sich,stritte sich,pelearse (por),-,Akk,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 tun (für),tut,hat getan,tat,täte,hacer (por),-,Akk,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 sich unterhalten (über),unterhält sich,hat sich unterhalten,unterhielt sich,unterhielte sich,conversar (sobre),-,Akk,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
@@ -567,8 +567,8 @@ wählen (in),wählt,hat gewählt,wählte,wählte,elegir (en),-,Akk,0/0 11-02-24,
 warten (auf),wartet,hat gewartet,wartete,wartete,esperar (a),-,Akk,0/0 11-02-24,0/0 11-02-24,0/1 11-02-24
 sich wenden (an),wendet sich,hat sich gewendet,wandte sich,wendete sich,dirigirse (a),-,Akk,0/0 11-02-24,1/2 14-02-25,0/0 11-02-24
 sich wundern (über),wundert sich,hat sich gewundert,wunderte sich,wunderte sich,sorprenderse (de),-,Akk,0/0 11-02-24,1/2 14-02-25,1/4 13-02-25
-abhängen (von),hängt ab,hat abgehangen,hing ab,hinge ab,depender (de),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-ändern (an),ändert,hat geändert,änderte,änderte,cambiar (en),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+abhängen (von),hängt ab,hat abgehangen,hing ab,hinge ab,depender (de),-,Dat,0/0 11-02-24,1/2 15-02-25,0/0 11-02-24
+ändern (an),ändert,hat geändert,änderte,änderte,cambiar (en),-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 anfangen (mit),fängt an,hat angefangen,fing an,finge an,empezar (con),-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 abheben (von),hebt ab,hat abgehoben,hob ab,höbe ab,retirar (de),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 auffordern (zu),fordert auf,hat aufgefordert,forderte auf,forderte auf,invitar (a),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -577,7 +577,7 @@ sich auseinandersetzen (mit),setzt sich auseinander,hat sich auseinandergesetzt,
 sich bedanken (bei),bedankt sich,hat sich bedankt,bedankte sich,bedankte sich,agradecer (a),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 sich befreien (von),befreit sich,hat sich befreit,befreite sich,befreite sich,liberarse (de),-,Dat,0/0 11-02-24,1/2 11-02-24,1/2 14-02-25
 sich befreien (aus),befreit sich,hat sich befreit,befreite sich,befreite sich,liberarse (de),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-beginnen (mit),beginnt,hat begonnen,begann,begänne,empezar (con),-,Dat,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
+beginnen (mit),beginnt,hat begonnen,begann,begänne,empezar (con),-,Dat,0/0 11-02-24,0/0 11-02-24,2/2 15-02-25
 sich beklagen (bei),beklagt sich,hat sich beklagt,beklagte sich,beklagte sich,quejarse (a),-,Dat,0/0 11-02-24,1/3 13-02-25,0/0 11-02-24
 berichten (von),berichtet,hat berichtet,berichtete,berichtete,informar (de),-,Dat,0/0 11-02-24,1/2 14-02-25,0/0 11-02-24
 sich beschäftigen (mit),beschäftigt sich,hat sich beschäftigt,beschäftigte sich,beschäftigte sich,ocuparse (de),-,Dat,0/0 11-02-24,1/2 11-02-24,1/3 14-02-25
@@ -591,10 +591,10 @@ sich erholen (von),erholt sich,hat sich erholt,erholte sich,erholte sich,recuper
 erkennen (an),erkennt,hat erkannt,erkannte,erkannte,reconocer (por),-,Dat,0/0 11-02-24,1/2 11-02-24,1/2 14-02-25
 sich erkundigen (nach),erkundigt sich,hat sich erkundigt,erkundigte sich,erkundigte sich,informarse (sobre)/preguntar (por),-,Dat,0/0 11-02-24,1/3 15-02-25,1/2 11-02-24
 sich erkundigen (bei),erkundigt sich,hat sich erkundigt,erkundigte sich,erkundigte sich,informarse (con)/preguntar (a),-,Dat,0/0 11-02-24,0/0 11-02-24,1/4 11-02-24
-erzählen (von),erzählt,hat erzählt,erzählte,erzählte,contar (sobre),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+erzählen (von),erzählt,hat erzählt,erzählte,erzählte,contar (sobre),-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 erziehen (zu),erzieht,hat erzogen,erzog,erzöge,educar (para),-,Dat,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
 fehlen (an),fehlt,hat gefehlt,fehlte,fehlte,faltar (en),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-folgen (aus),folgt,hat gefolgt,folgte,folgte,seguir (de),-,Dat,0/0 11-02-24,0/0 11-02-24,1/1 14-02-25
+folgen (aus),folgt,hat gefolgt,folgte,folgte,seguir (de),-,Dat,0/0 11-02-24,1/2 15-02-25,1/1 14-02-25
 fragen (nach),fragt,hat gefragt,fragte,fragte,preguntar (por),-,Dat,0/0 11-02-24,1/1 11-02-24,0/0 11-02-24
 führen (zu),führt,hat geführt,führte,führte,llevar (a),-,Dat,0/0 11-02-24,1/2 13-02-25,1/2 14-02-25
 sich fürchten (vor),fürchtet sich,hat sich gefürchtet,fürchtete sich,fürchtete sich,temer (a),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
@@ -602,7 +602,7 @@ gehören (zu),gehört,hat gehört,gehörte,gehörte,pertenecer (a),-,Dat,0/0 11-
 gratulieren (zu),gratuliert,hat gratuliert,gratulierte,gratulierte,felicitar (por),-,Dat,0/0 11-02-24,1/2 11-02-24,0/0 11-02-24
 halten (von),hält,hat gehalten,hielt,hielte,opinar (de),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 handeln (mit),handelt,hat gehandelt,handelte,handelte,tratar (con),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-handeln (von),handelt,hat gehandelt,handelte,handelte,tratar (de),-,Dat,1/1 14-02-25,0/0 11-02-24,0/0 11-02-24
+handeln (von),handelt,hat gehandelt,handelte,handelte,tratar (acerca de),-,Dat,1/1 14-02-25,1/2 15-02-25,0/0 11-02-24
 helfen (bei),hilft,hat geholfen,half,hülfe,ayudar (en),-,Dat,0/0 11-02-24,1/2 11-02-24,1/2 15-02-25
 hindern (an),hindert,hat gehindert,hinderte,hinderte,impedir (en),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 hören (von),hört,hat gehört,hörte,hörte,escuchar (de),-,Dat,0/0 11-02-24,0/0 11-02-24,1/1 11-02-24
@@ -632,7 +632,7 @@ schliessen (aus),schliesst,hat geschlossen,schloss,schlösse,concluir (de),-,Dat
 schmecken (nach),schmeckt,hat geschmeckt,schmeckte,schmeckte,saber (a),-,Dat,0/0 11-02-24,0/0 11-02-24,1/3 14-02-25
 schreiben (an),schreibt,hat geschrieben,schrieb,schriebe,escribir (la),contenido o tema,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 sehen (nach),sieht,hat gesehen,sah,sähe,verificar (algo),-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 14-02-25
-sich sehnen (nach),sehnt sich,hat sich gesehnt,sehnte sich,sehnte sich,anhelar (por),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
+sich sehnen (nach),sehnt sich,hat sich gesehnt,sehnte sich,sehnte sich,anhelar (por),-,Dat,0/0 11-02-24,0/0 11-02-24,1/3 15-02-25
 sprechen (mit),spricht,hat gesprochen,sprach,spräche,hablar (con),-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 sprechen (von),spricht,hat gesprochen,sprach,spräche,hablar (de),-,Dat,1/1 15-02-25,0/0 11-02-24,1/1 11-02-24
 sterben (an),stirbt,ist gestorben,starb,stürbe,morir (de),-,Dat,0/0 11-02-24,0/0 11-02-24,2/5 14-02-25
@@ -649,7 +649,7 @@ sich verabreden (mit),verabredet sich,hat sich verabredet,verabredete sich,verab
 verbinden (mit),verbindet,hat verbunden,verband,verbände,conectar (con),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 vergleichen (mit),vergleicht,hat verglichen,verglich,vergliche,comparar (con),-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 11-02-24
 sich verloben (mit),verlobt sich,hat sich verlobt,verlobte sich,verlobte sich,comprometerse (con),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
-verstehen (von),versteht,hat verstanden,verstand,verstände,entender (de),-,Dat,0/0 11-02-24,1/1 14-02-25,1/2 11-02-24
+verstehen (von),versteht,hat verstanden,verstand,verstände,entender (de),-,Dat,0/0 11-02-24,1/1 14-02-25,2/4 15-02-25
 sich verstehen (mit),versteht sich,hat sich verstanden,verstand sich,verstände sich,entenderse (con),-,Dat,0/0 11-02-24,0/0 11-02-24,1/2 15-02-25
 verwechseln (mit),verwechselt,hat verwechselt,verwechselte,verwechselte,confundir (con),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24
 wählen (zu),wählt,hat gewählt,wählte,wählte,elegir (para),-,Dat,0/0 11-02-24,0/0 11-02-24,0/0 11-02-24

@@ -8,25 +8,25 @@ braun,brauner,am braunsten,cafe,-,2/4 15-02-25
 gefährlich,gefährlicher,am gefährlichsten,peligroso,-,1/2 11-02-24
 gelb,gelber,am gelbsten,amarillo,-,2/2 14-02-25
 gemütlich,gemütlicher,am gemütlichsten,acogedor,-,2/4 15-02-25
-genau,genauer,am genauesten,exacto,-,2/4 14-02-25
+genau,genauer,am genauesten,exacto,-,3/5 15-02-25
 gleich,gleicher,am gleichsten,igual,-,2/4 13-02-25
 grau,grauer,am grausten,gris,-,2/3 14-02-25
 konservativ,konservativer,am konservativsten,conservador,-,1/2 14-02-25
-lang,länger,am längsten,largo,-,1/2 11-02-24
+lang,länger,am längsten,largo,-,2/3 15-02-25
 langweilig,langweiliger,am langweiligsten,aburrido,-,1/1 11-02-24
 nervös,nervöser,am nervösesten,nervioso,-,2/2 14-02-25
 offen,offener,am offensten,abierto,actitud abierta,3/5 11-02-24
 geöffnet,geöffneter,am geöffnetsten,abierto,físicamente abierto,2/4 14-02-25
 selten,seltener,am seltensten,raro,poco común,3/3 14-02-25
-komisch,komischer,am komischsten,raro,extraño o cómico,2/2 15-02-25
-sportlich,sportlicher,am sportlichsten,deportivo,-,2/4 11-02-24
+komisch,komischer,am komischsten,raro,extraño o cómico,3/3 15-02-25
+sportlich,sportlicher,am sportlichsten,deportivo,-,3/6 15-02-25
 sympathisch,sympathischer,am sympathischsten,simpático,-,2/2 14-02-25
 nett,netter,am nettesten,simpático,-,2/5 13-02-25
 traurig,trauriger,am traurigsten,triste,-,1/3 15-02-25
 treu,treuer,am treuesten,fiel,-,3/4 11-02-24
 verrückt,verrückter,am verrücktesten,loco,-,4/8 15-02-25
 dünn,dünner,am dünnsten,delgado,connotación negativa,2/3 15-02-25
-schlank,schlanker,am schlanksten,delgado,connotación positiva,2/5 14-02-25
+schlank,schlanker,am schlanksten,delgado,connotación positiva,3/6 15-02-25
 ehrlich,ehrlicher,am ehrlichsten,sincero,-,3/6 14-02-25
 elegant,eleganter,am elegantesten,elegante,-,2/2 11-02-24
 freundlich,freundlicher,am freundlichsten,amable,-,2/4 14-02-25
@@ -41,7 +41,7 @@ rund,runder,am rundesten,redondo,-,3/3 14-02-25
 voll,voller,am vollsten,lleno,-,4/4 14-02-25
 weich,weicher,am weichsten,suave,-,2/4 14-02-25
 wunderbar,wunderbarer,am wunderbarsten,maravilloso,-,1/2 11-02-24
-herrlich,herrlicher,am herrlichsten,maravilloso,-,3/5 15-02-25
+herrlich,herrlicher,am herrlichsten,maravilloso,-,4/7 15-02-25
 dumm,dümmer,am dümmsten,tonto,-,2/3 15-02-25
 doof,doofer,am doofsten,tonto,-,2/2 14-02-25
 attraktiv,attraktiver,am attraktivsten,atractivo,-,2/4 14-02-25
@@ -55,7 +55,7 @@ schön,schöner,am schönsten,bonito,general,3/4 11-02-24
 wütend,wütender,am wütendsten,furioso,-,3/6 11-02-24
 zornig,zorniger,am zornigsten,furioso,-,2/4 14-02-25
 fest,fester,am festesten,firme,-,1/2 11-02-24
-bequem,bequemer,am bequemsten,cómodo,-,4/6 14-02-25
+bequem,bequemer,am bequemsten,cómodo,-,5/7 15-02-25
 unbequem,unbequemer,am unbequemsten,incomodo,-,3/7 14-02-25
 schmutzig,schmutziger,am schmutzigsten,sucio,-,1/2 11-02-24
 frisch,frischer,am frischesten,fresco,-,2/2 14-02-25
@@ -66,8 +66,8 @@ schnell,schneller,am schnellsten,rápido,-,3/3 14-02-25
 langsam,langsamer,am langsamsten,lento,-,1/2 11-02-24
 schwach,schwächer,am schwächsten,débil,-,3/6 14-02-25
 heiß,heißer,am heißesten,caliente,-,2/3 14-02-25
-neu,neuer,am neuesten,nuevo,-,1/1 11-02-24
-kalt,kälter,am kältesten,frío,-,2/2 14-02-25
+neu,neuer,am neuesten,nuevo,-,2/2 15-02-25
+kalt,kälter,am kältesten,frío,-,3/3 15-02-25
 spitz,spitzer,am spitzesten,puntiagudo,-,1/2 11-02-24
 lustig,lustiger,am lustigsten,divertido,-,0/0 11-02-24
 teuer,teurer,am teuersten,caro,-,1/1 11-02-24
@@ -75,11 +75,11 @@ billig,billiger,am billigsten,barato,-,1/1 14-02-25
 dunkel,dunkler,am dunkelsten,oscuro,-,2/4 11-02-24
 hell,heller,am hellsten,claro,brillante,3/6 15-02-25
 deutlich,deutlicher,am deutlichsten,claro,comprensible,3/5 14-02-25
-eindeutig,eindeutiger,am eindeutigsten,claro,comprensible,3/5 14-02-25
+eindeutig,eindeutiger,am eindeutigsten,claro,comprensible,4/6 15-02-25
 gut,besser,am besten,bueno,-,1/1 14-02-25
 gern,lieber,am liebsten,con gusto,-,2/2 11-02-24
 schlecht,schlechter,am schlechtesten,malo,-,3/4 14-02-25
-viel,mehr,am meisten,mucho,-,1/1 11-02-24
+viel,mehr,am meisten,mucho,-,2/2 15-02-25
 wenig,weniger,am wenigsten,poco,-,2/3 11-02-24
 allmählich,allmählicher,am allmählichsten,poco a poco,-,2/4 14-02-25
 hoch,höher,am höchsten,alto,-,2/3 14-02-25
@@ -89,21 +89,21 @@ weit,weiter,am weitesten,lejos,-,1/2 14-02-25
 groß,größer,am größten,grande,-,1/1 14-02-25
 klein,kleiner,am kleinsten,pequeño,-,2/2 11-02-24
 laut,lauter,am lautesten,ruidoso,-,2/4 13-02-25
-stark,stärker,am stärksten,fuerte,-,2/3 11-02-24
+stark,stärker,am stärksten,fuerte,-,3/4 15-02-25
 gesund,gesünder,am gesündesten,sano,-,1/2 11-02-24
 krank,kränker,am kränksten,enfermo,-,2/4 14-02-25
-blass,blasser,am blassesten,pálido,-,0/0 11-02-24
+blass,blasser,am blassesten,pálido,-,1/2 15-02-25
 glatt,glatter,am glattesten,liso,-,1/2 11-02-24
-eben,ebener,am ebensten,liso,plano,4/8 15-02-25
+eben,ebener,am ebensten,liso,plano,5/9 15-02-25
 rau,rauer,am rauhesten,áspero,-,1/2 14-02-25
 nass,nasser,am nassesten,mojado,-,1/2 11-02-24
 trocken,trockener,am trockensten,seco,-,3/5 11-02-24
-schmal,schmaler,am schmalsten,estrecho,-,1/2 11-02-24
+schmal,schmaler,am schmalsten,estrecho,-,2/5 15-02-25
 eng,enger,am engsten,ajustado/limitado,-,1/2 14-02-25
 breit,breiter,am breitesten,ancho,-,2/4 13-02-25
 fromm,frömmer,am frömmsten,devoto,-,1/2 11-02-24
-rot,röter,am rötesten,rojo,-,0/0 11-02-24
-krumm,krummer,am krumsten,torcido,-,1/2 11-02-24
+rot,röter,am rötesten,rojo,-,1/1 15-02-25
+krumm,krummer,am krumsten,torcido,-,2/4 15-02-25
 alt,älter,am ältesten,viejo,-,2/2 11-02-24
 leicht,leichter,am leichtesten,fácil/ligero,-,2/2 13-02-25
 schwer,schwerer,am schwersten,difícil/pesado,-,2/3 11-02-25
@@ -114,22 +114,22 @@ schwarz,schwärzer,am schwärzesten,negro,-,1/1 13-02-25
 hässlich,hässlicher,am hässlichsten,feo,-,2/4 11-02-24
 anstrengend,anstrengender,am anstrengendsten,exigente,-,3/6 14-02-25
 dringend,dringender,am dringendsten,urgente,-,2/5 14-02-25
-sauber,sauberer,am saubersten,limpio,-,2/4 15-02-25
+sauber,sauberer,am saubersten,limpio,-,3/5 15-02-25
 arbeitslos,arbeitsloser,am arbeitslosesten,desempleado,-,2/4 11-02-24
-geehert,geehrter,am geehrtesten,honrado,-,3/9 14-02-25
+geehert,geehrter,am geehrtesten,honrado,-,4/12 15-02-25
 selbständig,selbständiger,am selbständigsten,independiente,-,2/4 14-02-25
 ausgezeichnet,ausgezeichneter,am ausgezeichnetsten,excelente,-,2/4 11-02-24
-bekannt,bekannter,am bekanntesten,famoso,-,1/2 14-02-25
+bekannt,bekannter,am bekanntesten,famoso,-,2/4 15-02-25
 praktisch,praktischer,am praktischsten,práctico,-,1/1 14-02-25
-schlimm,schlimmer,am schlimmsten,grave,-,1/4 11-02-24
+schlimm,schlimmer,am schlimmsten,grave,-,2/6 15-02-25
 toll,toller,am tollsten,genial,-,3/4 14-02-25
-wichtig,wichtiger,am wichtigsten,importante,-,1/2 11-02-24
-europäisch,europäischer,am europäischsten,europeo,-,2/2 11-02-24
+wichtig,wichtiger,am wichtigsten,importante,-,2/5 15-02-25
+europäisch,europäischer,am europäischsten,europeo,-,3/3 15-02-25
 fantastisch,fantastischer,am fantastischsten,fantástico,-,1/1 11-02-24
 fein,feiner,am feinsten,fino,-,2/4 14-02-25
 feucht,feuchter,am feuchtesten,húmedo,-,3/6 15-02-25
 gewöhnlich,gewöhnlicher,am gewöhnlichsten,ordinario,-,1/3 11-02-24
-günstig,günstiger,am günstigsten,económico,-,2/4 15-02-25
+günstig,günstiger,am günstigsten,económico,-,3/5 15-02-25
 preiswert,preiswerter,am preiswertesten,económico,-,2/2 11-02-24
 wirtschaftlich,wirtschaftlicher,am wirtschaftlichsten,económico,-,4/5 15-02-25
 herzlich,herzlicher,am herzlichsten,cordial,-,1/2 11-02-24
@@ -144,7 +144,7 @@ direkt,direkter,am direktesten,directo,-,3/5 15-02-25
 durchschnittlich,durchschnittlicher,am durchschnittlichsten,promedio,-,3/7 14-02-25
 einfach,einfacher,am einfachsten,sencillo,-,1/2 11-02-24
 früh,früher,am frühesten,temprano,-,1/3 11-02-24
-kaputt,kaputter,am kaputtesten,roto,-,1/2 11-02-24
+kaputt,kaputter,am kaputtesten,roto,-,2/4 15-02-25
 kompliziert,komplizierter,am kompliziertesten,complicado,-,2/4 14-02-25
 normal,normaler,am normalsten,normal,-,1/2 14-02-25
 technish,technischer,am technischsten,técnico,-,2/4 15-02-25
@@ -157,7 +157,7 @@ allein,alleiner,am alleinsten,solo,-,2/3 15-02-25
 ärgerlich,ärgerlicher,am ärgerlichsten,molesto,-,2/5 14-02-25
 beruflich,beruflicher,am beruflichsten,laboral,-,2/4 14-02-25
 besetzt,besetzter,am besetztesten,ocupado,-,4/8 11-02-24
-dauernd,dauernder,am dauerndsten,permanente,-,0/0 11-02-24
+dauernd,dauernder,am dauerndsten,permanente,-,1/2 15-02-25
 frei,freier,am freiesten,libre,-,1/1 11-02-24
 früher,früherer,am frühersten,anterior,de antes,2/4 11-02-24
 vorig,voriger,am vorigsten,anterior,anterior inmediato,2/5 11-02-24
@@ -165,17 +165,17 @@ glücklich,glücklicher,am glücklichsten,feliz,-,3/5 14-02-25
 höflich,höflicher,am höflichsten,cortés,-,2/5 14-02-25
 kritisch,kritischer,am kritischsten,crítico,-,1/1 11-02-24
 ledig,lediger,am ledigsten,soltero,-,3/3 15-02-25
-neugierig,neugieriger,am neugierigsten,curioso,-,1/3 14-02-25
+neugierig,neugieriger,am neugierigsten,curioso,-,2/6 15-02-25
 spät,später,am spätesten,tarde,-,2/3 15-02-25
 überzeugt,überzeugter,am überzeugtsten,convencido,-,2/5 15-02-25
 unbedingt,unbedingter,am unbedingtsten,indispensable,-,2/4 15-02-25
 unfreundlich,unfreundlicher,am unfreundlichsten,descortés,-,3/6 14-02-25
 unmöglich,unmöglicher,am unmöglichsten,imposible,-,2/5 13-02-25
-verheiratet,verheirateter,am verheiratetsten,casado,-,2/3 14-02-25
+verheiratet,verheirateter,am verheiratetsten,casado,-,3/4 15-02-25
 deutsch,deutscher,am deutschesten,alemán,-,2/2 11-02-24
 erste,erster,am ersten,primero,-,1/2 11-02-24
 flach,flacher,am flachsten,plano,-,1/2 14-02-25
-folgend,folgender,am folgendsten,siguiente,-,2/4 11-02-24
+folgend,folgender,am folgendsten,siguiente,-,3/6 15-02-25
 gleichzeitig,gleichzeitiger,am gleichzeitigsten,simultáneo,-,2/4 14-02-25
 ideal,idealer,am idealsten,ideal,-,2/3 11-02-24
 persönlich,persönlicher,am persönlichsten,personal,-,2/3 11-02-24
@@ -185,8 +185,8 @@ täglich,täglicher,am täglichsten,diario,-,2/3 11-02-24
 typisch,typischer,am typischsten,típico,-,2/2 11-02-24
 warm,warmer,am wärmsten,cálido,-,3/5 15-02-25
 zweite,zweiter,am zweitesten,segundo,-,1/1 11-02-24
-amerikanisch,amerikanischer,am amerikanischsten,americano,-,1/2 11-02-24
-durstig,durstiger,am durstigsten,sediento,-,2/3 15-02-25
+amerikanisch,amerikanischer,am amerikanischsten,americano,-,2/3 15-02-25
+durstig,durstiger,am durstigsten,sediento,-,3/4 15-02-25
 notwendig,notwendiger,am notwendigsten,necesario,-,0/0 11-02-24
 sozial,sozialer,am sozialsten,social,-,3/4 11-02-24
 ausländisch,ausländischer,am ausländischsten,extranjero,-,1/2 11-02-24
@@ -203,14 +203,14 @@ politisch,politischer,am politischsten,político,-,3/5 15-02-25
 sozialdemokratisch,sozialdemokratischer,am sozialdemokratischsten,socialdemócrata,-,2/3 11-02-24
 sozialistisch,sozialistischer,am sozialistischsten,socialista,-,1/1 11-02-24
 verletzt,verletzter,am verletztesten,herido,-,1/3 15-02-25
-völlig,völliger,am völligsten,completamente,-,1/2 14-02-25
+völlig,völliger,am völligsten,completamente,-,2/4 15-02-25
 wahrscheinlich,wahrscheinlicher,am wahrscheinlichsten,probable,-,2/5 14-02-25
 westlich,westlicher,am westlichsten,occidental,-,3/6 15-02-25
 salopp,salopper,am saloppsten,informal,-,5/10 15-02-25
 zufällig,zufälliger,am zufälligsten,casual/aleatorio,-,3/6 15-02-25
 zusammen,-,-,junto,-,1/2 13-02-25
 annehmbar,annehmbarer,am annehmbarsten,aceptable,-,1/1 11-02-24
-akzeptabel,akzeptabler,am akzeptabelsten,aceptable,-,1/1 14-02-25
+akzeptabel,akzeptabler,am akzeptabelsten,aceptable,-,2/2 15-02-25
 ehrenamtlich,ehrenamtlicher,am ehrenamtlichsten,voluntario,-,4/8 14-02-25
 verwandt,verwandter,am verwandtesten,relacionado,-,2/4 15-02-25
 betriebsbedingt,-,-,relacionado con el trabajo,-,1/2 15-02-25
@@ -223,18 +223,18 @@ inakzeptabel,inakzeptabler,am inakzeptabelsten,inaceptable,-,2/4 11-02-24
 aufrecht,aufrechter,am aufrechtesten,erguido/honesto,-,2/4 14-02-25
 verzweifelt,verzweifelter,am verzweifeltesten,desesperado,-,4/8 14-02-25
 heimlich,heimlicher,am heimlichsten,secreto,-,1/2 11-02-24
-undeutlich,undeutlicher,am undeutlichsten,indistinto,-,2/4 14-02-25
+undeutlich,undeutlicher,am undeutlichsten,indistinto,-,3/6 15-02-25
 aufgeregt,aufgeregter,am aufgeregtesten,emocionado,-,3/6 14-02-25
 häufig,häufiger,am häufigsten,frecuente,-,2/4 15-02-25
 unwichtig,unwichtiger,am unwichtigsten,insignificante,-,2/4 11-02-24
-betrunken,betrunkener,am betrunkensten,ebrio,-,4/9 15-02-25
+betrunken,betrunkener,am betrunkensten,ebrio,-,5/11 15-02-25
 begeistert,begeisterter,am begeistertsten,entusiasmado,-,1/3 11-02-24
 hysterisch,hysterischer,am hysterischsten,histérico,-,3/6 15-02-25
 schrecklich,schrecklicher,am schrecklichsten,horrible,-,1/2 11-02-24
 positiv,positiver,am positivsten,positivo,-,3/3 14-02-25
 neutral,neutraler,am neutralsten,neutral,-,2/2 11-02-24
 negativ,negativer,am negativsten,negativo,-,1/1 11-02-24
-grundsätzlich,grundsätzlicher,am grundsätzlichsten,fundamental,-,4/9 11-02-24
+grundsätzlich,grundsätzlicher,am grundsätzlichsten,fundamental,-,5/11 15-02-25
 mittelmäßig,mittelmäßiger,am mittelmäßigsten,mediocre,-,3/6 13-02-25
 geboren,-,-,nacido,-,2/3 14-02-25
 geschieden,-,-,divorciado,-,4/8 15-02-25
@@ -242,14 +242,14 @@ verwitwet,-,-,viudo,-,3/7 14-02-25
 üblich,üblicher,am üblichsten,común,-,3/4 14-02-25
 gemainsam,gemeinsamer,am gemeinsamsten,en conjunto/común,-,1/1 11-02-24
 afrikanisch,afrikanischer,am afrikanischsten,africano,-,3/4 11-02-24
-asiatisch,asiatischer,am asiatischsten,asiático,-,3/6 15-02-25
+asiatisch,asiatischer,am asiatischsten,asiático,-,4/7 15-02-25
 ozeanisch,ozeanischer,am ozeanischsten,oceánico,-,2/4 15-02-25
 gruselig,gruseliger,am gruseligsten,escalofriante,-,3/6 14-02-25
 allergisch,allergischer,am allergischsten,alérgico,-,2/4 14-02-25
-hungrig,hungriger,am hungrigsten,hambriento,-,3/4 13-02-25
+hungrig,hungriger,am hungrigsten,hambriento,-,4/5 15-02-25
 minderjährig,-,-,menor de edad,-,1/2 15-02-25
-volljährig,-,-,mayor de edad,-,1/2 14-02-25
-erziehbar,erziehbarer,am erziehbarsten,educable,-,2/5 11-02-24
+volljährig,-,-,mayor de edad,-,2/3 15-02-25
+erziehbar,erziehbarer,am erziehbarsten,educable,-,3/7 15-02-25
 zuständig,zuständiger,am zuständigsten,responsable,-,1/2 14-02-25
 senil,seniler,am senilsten,senil,-,4/6 11-02-24
 gebrechlich,gebrechlicher,am gebrechlichsten,frágil,-,1/2 11-02-24

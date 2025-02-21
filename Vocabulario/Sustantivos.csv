@@ -5,7 +5,7 @@ r,Aufzug,-,⸚e,-,Elevador,-,1/2 11-02-24,1/2 11-02-24
 -,Ausländer,Ausländerin,-,-nen,Extranjero(a),persona,1/1 14-02-25,1/3 13-02-25
 s,Auto,-,-s,-,Coche,-,0/0 11-02-24,0/0 11-02-24
 -,Freund,Freundin,-e,-nen,Amigo(a),-,1/1 11-02-24,0/0 11-02-24
-s,Baby,-,-s,-,Bebé,-,0/0 11-02-24,1/1 11-02-24
+s,Baby,-,-s,-,Bebé,-,0/0 11-02-24,2/2 15-02-25
 e,Badewanne,-,-n,-,Bañera,-,0/0 11-02-24,2/4 14-02-25
 s,Badezimmer,-,-,-,Baño,-,0/0 11-02-24,2/2 13-02-25
 s,Bad,-,⸚er,-,Baño,-,0/0 11-02-24,1/2 11-02-24
@@ -34,7 +34,7 @@ r,Geschirrspüler,-,-,-,Lavaplatos,-,1/1 13-02-25,0/0 11-02-24
 e,Spülmaschine,-,-n,-,Lavaplatos,-,1/1 14-02-25,0/0 11-02-24
 e,Glühbirne,-,-n,-,Foco,-,1/2 11-02-24,0/0 11-02-24
 s,Handy,-,-s,-,Celular,-,0/0 11-02-24,1/1 14-02-25
-s,Haus,-,⸚er,-,Casa,-,0/0 11-02-24,0/0 11-02-24
+s,Haus,-,⸚er,-,Casa,-,0/0 11-02-24,1/1 15-02-25
 r,Herd,-,-e,-,Estufa,-,0/0 11-02-24,0/0 11-02-24
 s,Hobby,-,-s,-,Pasatiempo,-,0/0 11-02-24,0/0 11-02-24
 e,Kamera,-,-s,-,Cámara,-,0/0 11-02-24,0/0 11-02-24
@@ -66,14 +66,14 @@ r,Schrank,-,⸚e,-,Estante,cerrado,1/2 14-02-25,0/0 11-02-24
 r,Sessel,-,-,-,Sillón,-,1/1 14-02-25,1/2 15-02-25
 s,Sofa,-,-s,-,Sofá,-,0/0 11-02-24,1/1 11-02-24
 s,Bettsofa,-,-s,-,Sofá cama,-,0/0 11-02-24,0/0 11-02-24
-r,Spiegel,-,-,-,Espejo,-,0/0 11-02-24,1/1 11-02-24
+r,Spiegel,-,-,-,Espejo,-,0/0 11-02-24,2/2 15-02-25
 e,Spüle,-,-n,-,Fregadero,-,0/0 11-02-24,1/2 11-02-24
 e,Steckdose,-,-n,-,Enchufe,-,0/0 11-02-24,1/2 15-02-25
 r,Stecker,-,-,-,Clavija,-,0/0 11-02-24,0/0 11-02-24
 r,Stuhl,-,⸚e,-,Silla,-,0/0 11-02-24,1/1 11-02-24
 r,Kinderstuhl,-,⸚e,-,Silla de niño,-,0/0 11-02-24,0/0 11-02-24
 r,Taschenrechner,-,-,-,Calculadora,-,0/0 11-02-24,1/2 15-02-25
-s,Telefon,-,-e,-,Teléfono,-,0/0 11-02-24,1/2 11-02-24
+s,Telefon,-,-e,-,Teléfono,-,0/0 11-02-24,2/4 15-02-25
 r,Teppich,-,-e,-,Alfombra,-,0/0 11-02-24,0/0 11-02-24
 e,Terrasse,-,-n,-,Terraza,-,0/0 11-02-24,0/0 11-02-24
 r,Tisch,-,-e,-,Mesa,-,0/0 11-02-24,0/0 11-02-24
@@ -92,7 +92,7 @@ r,Wasserhahn,-,⸚e,-,Llave de agua,-,0/0 11-02-24,0/0 11-02-24
 r,Wecker,-,-,-,Despertador,-,0/0 11-02-24,0/0 11-02-24
 r,Wolf,-,⸚e,-,Lobo,-,0/0 11-02-24,0/0 11-02-24
 s,Wohnzimmer,-,-,-,Sala,-,0/0 11-02-24,0/0 11-02-24
-e,Zahl,-,-en,-,Número,general,0/0 11-02-24,0/0 11-02-24
+e,Zahl,-,-en,-,Número,general,1/1 15-02-25,1/2 15-02-25
 e,Nummer,-,-n,-,Número,-,0/0 11-02-24,1/2 14-02-25
 e,Kirsche,-,-n,-,Cereza,-,1/3 15-02-25,1/2 11-02-24
 r,Pfirsich,-,-e,-,Durazno,-,0/0 11-02-24,1/2 14-02-25
@@ -147,7 +147,7 @@ r,Hamburger,-,-,-,Hamburguesa,-,0/0 11-02-24,0/0 11-02-24
 r,Kuchen,-,-,-,Pastel,-,0/0 11-02-24,1/1 11-02-24
 s,Eis,-,-,-,Helado,-,0/0 11-02-24,1/1 14-02-25
 e,Pizza,-,-s,-,Pizza,-,1/1 11-02-24,1/1 14-02-25
-s,Bier,-,-e,-,Cerveza,-,1/1 11-02-24,0/0 11-02-24
+s,Bier,-,-e,-,Cerveza,-,1/1 11-02-24,1/1 15-02-25
 s,Wasser,-,-,-,Agua,-,2/2 14-02-25,2/2 11-02-24
 s,Mineralwasser,-,-,-,Agua mineral,-,1/1 11-02-24,1/1 14-02-25
 s,Brot,-,-e,-,Pan,-,0/0 11-02-24,0/0 11-02-24
@@ -172,7 +172,7 @@ e,Jacke,-,-n,-,Chamarra,-,0/0 11-02-24,1/2 11-02-24
 e,Suppe,-,-n,-,Sopa,-,0/0 11-02-24,1/1 11-02-24
 e,Rindfleischsuppe,-,-n,-,Sopa de carne de vaca,-,0/0 11-02-24,0/0 11-02-24
 e,Zwiebelsuppe,-,-n,-,Sopa de cebolla,-,1/2 14-02-25,0/0 11-02-24
-r,Salat,-,-e,-,Ensalada,-,0/0 11-02-24,0/0 11-02-24
+r,Salat,-,-e,-,Ensalada,-,0/0 11-02-24,1/2 15-02-25
 r,Kartoffelsalat,-,-e,-,Ensalada de papas,-,0/0 11-02-24,0/0 11-02-24
 r,Obstsalat,-,-e,-,Ensalada de frutas,-,0/0 11-02-24,0/0 11-02-24
 e,Wurst,-,⸚e,-,Salchicha,-,0/0 11-02-24,1/2 11-02-24
@@ -205,7 +205,7 @@ e,Soße,-,-n,-,Salsa,-,0/0 11-02-24,0/0 11-02-24
 s,Fitnessstudio,-,-s,-,Gimnasio,-,0/0 11-02-24,0/0 11-02-24
 e,Daten,-,-,-,Datos,-,0/0 11-02-24,0/0 11-02-24
 e,Massageliege,-,-n,-,Camilla de masaje,-,1/2 14-02-25,0/0 11-02-24
-e,Massage,-,-n,-,Masaje,-,0/0 11-02-24,0/0 11-02-24
+e,Massage,-,-n,-,Masaje,-,0/0 11-02-24,1/2 15-02-25
 e,Bank,-,⸚e,-,Banco,de sentarse o de dinero,0/0 11-02-24,1/2 11-02-24
 e,Sitzbank,-,⸚e,-,Banca,-,0/0 11-02-24,1/3 11-02-24
 r,Monitor,-,-e,-,Monitor,-,0/0 11-02-24,0/0 11-02-24
@@ -282,14 +282,14 @@ s,Geschäft,-,-e,-,Tienda/Negocio,-,0/0 11-02-24,1/4 14-02-25
 r,Laden,-,⸚,-,Tienda/Negocio,-,0/0 11-02-24,1/2 11-02-24
 s,Kaufhaus,-,⸚er,-,Tienda departamental,-,0/0 11-02-24,1/2 11-02-24
 s,Zelt,-,-e,-,Tienda de campaña,-,0/0 11-02-24,1/2 14-02-25
-s,Krankenhaus,-,⸚er,-,Hospital,-,0/0 11-02-24,0/0 11-02-24
+s,Krankenhaus,-,⸚er,-,Hospital,-,0/0 11-02-24,1/2 15-02-25
 s,Schwimmbad,-,⸚er,-,Piscina,-,1/3 15-02-25,1/2 11-02-24
 s,Stadttor,-,-e,-,Puerta de la ciudad,-,0/0 11-02-24,0/0 11-02-24
 r,Strand,-,⸚e,-,Playa,-,0/0 11-02-24,1/1 11-02-24
 r,See,-,-n,-,Lago,-,0/0 11-02-24,0/0 11-02-24
 r,Fluss,-,⸚e,-,Río,-,0/0 11-02-24,1/2 11-02-24
 r,Berg,-,-e,-,Montaña,-,0/0 11-02-24,1/2 11-02-24
-r,Wald,-,⸚er,-,Bosque,-,1/2 11-02-24,1/2 11-02-24
+r,Wald,-,⸚er,-,Bosque,-,1/2 11-02-24,2/4 15-02-25
 r,Hafen,-,⸚,-,Puerto,-,0/0 11-02-24,0/0 11-02-24
 r,Hügel,-,-,-,Colina,-,0/0 11-02-24,0/0 11-02-24
 r,Park,-,-s,-,Parque,-,0/0 11-02-24,0/0 11-02-24
@@ -317,12 +317,12 @@ e,Adresse,-,-n,-,Dirección,ubicación,0/0 11-02-24,0/0 11-02-24
 e,Richtung,-,-en,-,Dirección,sentido,0/0 11-02-24,1/2 11-02-24
 e,Entfernung,-,-en,-,Distancia,-,0/0 11-02-24,1/2 11-02-24
 r,Urlaub,-,-e,-,Vacaciones,-,0/0 11-02-24,0/0 11-02-24
-e,Reise,-,-n,-,Viaje,viaje largo,0/0 11-02-24,0/0 11-02-24
+e,Reise,-,-n,-,Viaje,viaje largo,0/0 11-02-24,1/2 15-02-25
 e,Fahrt,-,-en,-,Viaje,trayecto,0/0 11-02-24,0/0 11-02-24
 e,Weltreise,-,-n,-,Viaje mundial,-,0/0 11-02-24,0/0 11-02-24
 s,Reisebüro,-,-s,-,Agencia de viajes,-,0/0 11-02-24,1/2 11-02-24
 e,Industrie,-,-n,-,Industria,-,0/0 11-02-24,0/0 11-02-24
-e,Fabrik,-,-en,-,Fábrica,-,0/0 11-02-24,2/4 11-02-24
+e,Fabrik,-,-en,-,Fábrica,-,0/0 11-02-24,3/6 15-02-25
 e,Natur,-,-,-,Naturaleza,-,0/0 11-02-24,0/0 11-02-24
 e,Luft,-,-,-,Aire,-,1/2 15-02-25,1/2 11-02-24
 s,Meer,-,-e,-,Mar,-,1/1 11-02-24,1/2 11-02-24
@@ -372,7 +372,7 @@ r,Husten,-,-,-,Tos,-,0/0 11-02-24,0/0 11-02-24
 r,Schmerz,-,-en,-,Dolor,-,0/0 11-02-24,0/0 11-02-24
 s,Fieber,-,-,-,Fiebre,-,1/1 14-02-25,1/2 14-02-25
 s,Gespräch,-,-e,-,Conversación,-,0/0 11-02-24,0/0 11-02-24
-s,Problem,-,-e,-,Problema,-,0/0 11-02-24,0/0 11-02-24
+s,Problem,-,-e,-,Problema,-,0/0 11-02-24,1/2 15-02-25
 r,Tropfen,-,-,-,Gota,-,0/0 11-02-24,1/2 11-02-24
 s,Medikament,-,-e,-,Medicamento,-,1/1 11-02-24,0/0 11-02-24
 r,Brief,-,-e,-,Carta,-,0/0 11-02-24,1/2 14-02-25
@@ -404,8 +404,8 @@ e,Hausaufgabe,-,-n,-,Tarea,tarea escolar,0/0 11-02-24,0/0 11-02-24
 r,Beutel,-,-,-,Bolsa,bolsa de plástico,0/0 11-02-24,0/0 11-02-24
 e,Tasche,-,-n,-,Bolsa,bolso o cartera,0/0 11-02-24,1/2 14-02-25
 e,Packung,-,-en,-,Paquete,envoltura,0/0 11-02-24,1/2 11-02-24
-s,Paket,-,-e,-,Paquete,grande,1/2 11-02-24,0/0 11-02-24
-s,Päckchen,-,-,-,Paquete,pequeño,0/0 11-02-24,1/2 14-02-25
+s,Paket,-,-e,-,Paquete,grande,1/2 11-02-24,1/2 15-02-25
+s,Päckchen,-,-,-,Paquete,pequeño,0/0 11-02-24,2/4 15-02-25
 e,Tafel,-,-n,-,Tableta/Placa,-,1/2 11-02-24,0/0 11-02-24
 r,Becher,-,-,-,Vaso/Copa,sin asa,0/0 11-02-24,0/0 11-02-24
 s,Glas,-,⸚er,-,Vaso/Copa/Cristal,de vidrio,0/0 11-02-24,0/0 11-02-24
@@ -429,7 +429,7 @@ r,März,-,-e,-,Marzo,-,0/0 11-02-24,0/0 11-02-24
 r,April,-,-e,-,Abril,-,0/0 11-02-24,2/4 11-02-24
 r,Mai,-,-e,-,Mayo,-,0/0 11-02-24,0/0 11-02-24
 r,Juni,-,s,-,Junio,-,0/0 11-02-24,1/2 14-02-25
-r,Juli,-,-s,-,Julio,-,0/0 11-02-24,0/0 11-02-24
+r,Juli,-,-s,-,Julio,-,1/2 15-02-25,0/0 11-02-24
 r,August,-,-e,-,Agosto,-,0/0 11-02-24,1/1 11-02-24
 r,September,-,-,-,Septiembre,-,0/0 11-02-24,0/0 11-02-24
 r,Oktober,-,-,-,Octubre,-,0/0 11-02-24,0/0 11-02-24
@@ -443,8 +443,8 @@ r,Freitag,-,-e,-,Viernes,-,0/0 11-02-24,0/0 11-02-24
 r,Samstag,-,-e,-,Sábado,-,1/2 11-02-24,0/0 11-02-24
 r,Sonntag,-,-e,-,Domingo,-,0/0 11-02-24,0/0 11-02-24
 r,Frühling,-,-e,-,Primavera,-,0/0 11-02-24,0/0 11-02-24
-r,Sommer,-,-,-,Verano,-,0/0 11-02-24,0/0 11-02-24
-r,Herbst,-,-e,-,Otoño,-,0/0 11-02-24,0/0 11-02-24
+r,Sommer,-,-,-,Verano,-,1/1 15-02-25,0/0 11-02-24
+r,Herbst,-,-e,-,Otoño,-,0/0 11-02-24,1/2 15-02-25
 r,Winter,-,-,-,Invierno,-,1/2 11-02-24,0/0 11-02-24
 s,Motorrad,-,-räder,-,Motocicleta,-,0/0 11-02-24,1/2 11-02-24
 r,Bericht,-,-e,-,Informe,-,1/2 14-02-25,1/3 11-02-24
@@ -455,7 +455,7 @@ s,Jugendamt,-,-,-,Oficina de juventud,-,0/0 11-02-24,0/0 11-02-24
 e,Prüfung,-,-en,-,Examen,general,0/0 11-02-24,0/0 11-02-24
 s,Examen,-,-,-,Examen,oficial o formal,0/0 11-02-24,3/5 13-02-25
 s,Pech,-,-e,-,Mala suerte,-,0/0 11-02-24,0/0 11-02-24
-s,Glück,-,-,-,Suerte,-,0/0 11-02-24,0/0 11-02-24
+s,Glück,-,-,-,Suerte,-,0/0 11-02-24,1/2 15-02-25
 e,Sache,-,-n,-,Cosa,-,1/3 11-02-24,1/2 14-02-25
 e,Rechnung,-,-en,-,Cuenta,-,0/0 11-02-24,0/0 11-02-24
 s,Parkhaus,-,⸚er,-,Estacionamiento,-,0/0 11-02-24,0/0 11-02-24
@@ -513,12 +513,12 @@ e,Bewegung,-,-en,-,Movimiento,-,0/0 11-02-24,0/0 11-02-24
 e,Benimm,-,-en,-,Comportamiento,-,0/0 11-02-24,1/2 11-02-24
 -,Vorsitzender,Vorsitzende,-,-n,Presidente(a),de una asociación,1/2 11-02-24,1/2 11-02-24
 -,Präsident,Präsidentin,-en,-nen,Presidente,de un país,0/0 11-02-24,1/2 14-02-25
-r,Abschied,-,-e,-,Despedida,-,0/0 11-02-24,1/2 11-02-24
+r,Abschied,-,-e,-,Despedida,-,1/2 15-02-25,1/2 11-02-24
 r,Polterabend,-,-e,-,Despedida de soltero,-,0/0 11-02-24,0/0 11-02-24
 e,Ansicht,-,-en,-,Opinión,-,0/0 11-02-24,0/0 11-02-24
 e,Meinung,-,-en,-,Opinión,-,0/0 11-02-24,0/0 11-02-24
 e,Zusammenfassung,-,-en,-,Resumen,-,1/2 14-02-25,1/4 14-02-25
-e,Betreuung,-,-,-,Cuidado,-,0/0 11-02-24,0/0 11-02-24
+e,Betreuung,-,-,-,Cuidado,-,0/0 11-02-24,1/2 15-02-25
 e,Kinderbetreuung,-,-en,-,Cuidado de niños,-,0/0 11-02-24,0/0 11-02-24
 e,Besprechung,-,-en,-,Reunión,-,0/0 11-02-24,0/0 11-02-24
 e,Rente,-,-n,-,Pensión,económica,0/0 11-02-24,0/0 11-02-24
@@ -563,7 +563,7 @@ e,Grundschule,-,-n,-,Primaria,-,1/2 11-02-24,0/0 11-02-24
 s,Gymnasium,-,-ien,-,Preparatoria,-,1/2 11-02-24,0/0 11-02-24
 e,Hauptsache,-,-n,-,Lo principal,-,0/0 11-02-24,0/0 11-02-24
 r,Import,-,-e,-,Importación,-,0/0 11-02-24,1/2 11-02-24
-r,Monat,-,-e,-,Mes,-,0/0 11-02-24,0/0 11-02-24
+r,Monat,-,-e,-,Mes,-,0/0 11-02-24,1/2 15-02-25
 r,Nachteil,-,-e,-,Desventaja,-,0/0 11-02-24,0/0 11-02-24
 r,Vorteil,-,-e,-,Ventaja,-,0/0 11-02-24,1/2 11-02-24
 -,Politiker,Politikerin,-,-nen,Político(a),-,0/0 11-02-24,0/0 11-02-24
@@ -571,7 +571,7 @@ r,Vorteil,-,-e,-,Ventaja,-,0/0 11-02-24,1/2 11-02-24
 e,Kriminalpolizei,-,-,-,Departamento de investigación criminal,-,1/2 14-02-25,1/2 11-02-24
 e,Religion,-,-en,-,Religión,-,0/0 11-02-24,0/0 11-02-24
 e,Konfession,-,-en,-,Religión,-,0/0 11-02-24,2/3 14-02-25
--,Schauspieler,Schauspielerin,-,-nen,Actor(a),-,0/0 11-02-24,0/0 11-02-24
+-,Schauspieler,Schauspielerin,-,-nen,Actor(a),-,1/2 15-02-25,0/0 11-02-24
 r,Termin,-,-e,-,Cita,-,0/0 11-02-24,0/0 11-02-24
 -,Verkäufer,Verkäuferin,-,-nen,Vendedor(a),-,0/0 11-02-24,1/2 14-02-25
 r,Vertrag,-,⸚e,-,Contrato,-,0/0 11-02-24,1/2 11-02-24
@@ -581,7 +581,7 @@ e,Bewerbung,-,-en,-,Solicitud,-,1/2 15-02-25,0/0 11-02-24
 s,Datum,-,-en,-,Fecha,-,1/1 13-02-25,1/2 11-02-24
 s,Geburtsdatum,-,-en,-,Fecha de nacimiento,-,0/0 11-02-24,0/0 11-02-24
 s,Diplom,-,-e,-,Diploma,-,0/0 11-02-24,0/0 11-02-24
-r,Export,-,-e,-,Exportación,-,0/0 11-02-24,1/2 11-02-24
+r,Export,-,-e,-,Exportación,-,0/0 11-02-24,2/4 15-02-25
 s,Inland,-,-,-,Interior,-,1/2 11-02-24,0/0 11-02-24
 e,Lehre,-,-n,-,Enseñanza,-,1/2 11-02-24,0/0 11-02-24
 s,Vokabellernen,-,-,-,Aprendizaje de vocabulario,-,1/2 11-02-24,1/2 11-02-24
@@ -613,7 +613,7 @@ r,Glückwunsch,-,⸚e,-,Felicitación,-,1/2 11-02-24,0/0 11-02-24
 r,Gott,-,⸚er,-,Dios,-,0/0 11-02-24,0/0 11-02-24
 r,Gruß,-,⸚e,-,Saludo,saludo,0/0 11-02-24,0/0 11-02-24
 e,Anrede,-,-n,-,Trato,forma de dirigirse a alguien,1/2 15-02-25,1/2 14-02-25
-r,Hammer,-,⸚,-,Martillo,-,0/0 11-02-24,0/0 11-02-24
+r,Hammer,-,⸚,-,Martillo,-,0/0 11-02-24,1/2 15-02-25
 r,Himmel,-,-,-,Cielo,-,0/0 11-02-24,1/2 14-02-25
 e,Zeitschift,-,-en,-,Revista,-,0/0 11-02-24,0/0 11-02-24
 e,Illustrierte,-,-n,-,Revista ilustrada,-,1/2 11-02-24,1/4 11-02-24
@@ -640,10 +640,10 @@ e,Qualität,-,-en,-,Calidad,-,1/1 11-02-24,0/0 11-02-24
 e,Sendung,-,-en,-,Emisión,-,0/0 11-02-24,0/0 11-02-24
 r,Sinn,-,-,-,Sentido,-,0/0 11-02-24,1/2 11-02-24
 e,Spezialität,-,-en,-,Especialidad,-,0/0 11-02-24,0/0 11-02-24
-r,Sport,-,-,-,Deporte,-,0/0 11-02-24,0/0 11-02-24
+r,Sport,-,-,-,Deporte,-,0/0 11-02-24,1/2 15-02-25
 e,Technik,-,-,-,Técnica,-,0/0 11-02-24,0/0 11-02-24
 s,Telegramm,-,-e,-,Telegrama,-,1/2 11-02-24,0/0 11-02-24
-s,Tier,-,-e,-,Animal,-,0/0 11-02-24,0/0 11-02-24
+s,Tier,-,-e,-,Animal,-,0/0 11-02-24,1/3 15-02-25
 e,Uhrzeit,-,-en,-,Hora,-,0/0 11-02-24,1/1 14-02-25
 e,Unterhaltung,-,-en,-,Entretenimiento,-,0/0 11-02-24,0/0 11-02-24
 e,Vorstellung,-,-en,-,Presentación,presentación o idea,0/0 11-02-24,1/2 11-02-24
@@ -655,9 +655,9 @@ s,Wochenende,-,-n,-,Fin de semana,-,0/0 11-02-24,1/2 11-02-24
 r,Zuschauer,-,-,-,Espectador,-,0/0 11-02-24,1/2 11-02-24
 r,Arbeiter,-,-,-,Trabajador,-,0/0 11-02-24,1/2 11-02-24
 s,Benzin,-,-,-,Gasolina,-,1/2 11-02-24,1/2 15-02-25
-e,Bremse,-,-n,-,Freno,-,0/0 11-02-24,1/2 11-02-24
+e,Bremse,-,-n,-,Freno,-,1/2 15-02-25,1/2 11-02-24
 e,Chance,-,-n,-,Oportunidad,-,0/0 11-02-24,1/2 11-02-25
-r,Dank,-,-,-,Agradecimiento,-,0/0 11-02-24,0/0 11-02-24
+r,Dank,-,-,-,Agradecimiento,-,0/0 11-02-24,1/2 15-02-25
 r,Diesel,-,-,-,Diésel,-,0/0 11-02-24,0/0 11-02-24
 r,Eheleute,-,-,-,Esposos,-,0/0 11-02-24,1/2 11-02-24
 e,Europa,-,-,-,Europa,-,1/1 14-02-25,0/0 11-02-24
@@ -675,7 +675,7 @@ r,Kilometer,-,-,-,Kilómetro,-,0/0 11-02-24,1/1 11-02-24
 r,Kofferraum,-,⸚e,-,Maletero,-,0/0 11-02-24,0/0 11-02-24
 e,Konkurrenz,-,-,-,Competencia,-,0/0 11-02-24,0/0 11-02-24
 r,Kredit,-,-e,-,Crédito,-,0/0 11-02-24,0/0 11-02-24
-r,Kunde,-,-n,-,Cliente,-,0/0 11-02-24,1/2 11-02-24
+r,Kunde,-,-n,-,Cliente,-,0/0 11-02-24,2/4 15-02-25
 e,Länge,-,-,-,Longitud,-,0/0 11-02-24,1/2 11-02-24
 r,Lastwagen,-,-,-,Camión,-,0/0 11-02-24,1/2 11-02-24
 r,Liter,-,-,-,Litro,-,0/0 11-02-24,0/0 11-02-24
@@ -701,7 +701,7 @@ r,Verkehr,-,-,-,Tráfico,-,1/2 11-02-24,0/0 11-02-24
 e,Versicherung,-,-en,-,Seguro,-,0/0 11-02-24,1/2 11-02-24
 e,Krankenkasse,-,-n,-,Seguro de salud,-,1/2 15-02-25,1/3 13-02-25
 e,Renteversicherung,-,-en,-,Seguro de jubilación,-,0/0 11-02-24,0/0 11-02-24
-e,Verzeihung,-,-,-,Perdón,-,1/2 11-02-24,0/0 11-02-24
+e,Verzeihung,-,-,-,Perdón,-,2/4 15-02-25,0/0 11-02-24
 r,Vorname,-,-n,-,Nombre de pila,-,0/0 11-02-24,0/0 11-02-24
 e,Wohnung,-,-en,-,Vivienda,-,0/0 11-02-24,0/0 11-02-24
 r,Zug,-,⸚e,-,Tren,-,1/1 11-02-24,1/1 11-02-24
@@ -727,7 +727,7 @@ s,Menü,-,-s,-,Menú,-,0/0 11-02-24,1/2 14-02-25
 e,Mutter,-,⸚,-,Madre,-,0/0 11-02-24,0/0 11-02-24
 e,Pause,-,-n,-,Pausa,-,0/0 11-02-24,0/0 11-02-24
 s,Prozent,-,-e,-,Porcentaje,-,0/0 11-02-24,0/0 11-02-24
-e,Ruhe,-,-,-,Calma,-,0/0 11-02-24,0/0 11-02-24
+e,Ruhe,-,-,-,Calma,-,0/0 11-02-24,1/1 15-02-25
 r,Unsinn,-,-,-,Disparate,-,0/0 11-02-24,1/2 14-02-25
 e,Untersuchung,-,-en,-,Investigación,-,1/2 11-02-24,0/0 11-02-24
 s,Urteil,-,-e,-,Juicio,-,0/0 11-02-24,0/0 11-02-24
@@ -811,7 +811,7 @@ e,Jugendherberge,-,-n,-,Albergue juvenil,-,0/0 11-02-24,0/0 11-02-24
 e,Kellnerin,-,-nen,-,Camarera,-,1/2 14-02-25,1/1 11-02-24
 r,Krankenschein,-,-e,-,Carnet de salud,-,1/2 11-02-24,1/2 11-02-24
 r,Lehrling,-,-e,-,Aprendiz,-,0/0 11-02-24,0/0 11-02-24
-e,Liste,-,-n,-,Lista,-,1/1 11-02-24,0/0 11-02-24
+e,Liste,-,-n,-,Lista,-,1/1 11-02-24,1/2 15-02-25
 e,Mode,-,-n,-,Moda,-,0/0 11-02-24,1/2 11-02-24
 r,Pass,-,⸚e,-,Pasaporte,general,0/0 11-02-24,1/1 11-02-24
 r,Reisepass,-,⸚e,-,Pasaporte,de viaje,0/0 11-02-24,0/0 11-02-24
@@ -823,7 +823,7 @@ r,Schwierigkeit,-,-en,-,Dificultad,-,1/2 11-02-24,1/5 11-02-24
 r,Seife,-,-n,-,Jabón,-,0/0 11-02-24,1/2 11-02-24
 s,Streichholz,-,⸚er,-,Cerilla,-,1/2 15-02-25,0/0 11-02-24
 s,Telefonbuch,-,⸚er,-,Guía telefónica,-,1/3 14-02-25,0/0 11-02-24
-r,Tourist,-,-en,-,Turista,-,1/1 14-02-25,2/4 14-02-25
+r,Tourist,-,-en,-,Turista,-,1/1 14-02-25,3/6 15-02-25
 e,Verwandte,-,-n,-,Pariente,-,0/0 11-02-24,0/0 11-02-24
 s,Visum,-,-,-,Visa,-,0/0 11-02-24,0/0 11-02-24
 e,Zahnbürste,-,-n,-,Cepillo de dientes,-,1/2 15-02-25,0/0 11-02-24
@@ -894,7 +894,7 @@ r,Auftrag,-,⸚e,-,Encargo,-,0/0 11-02-24,0/0 11-02-24
 e,Kündigung,-,-en,-,Renuncia,-,1/3 11-02-24,2/4 11-02-24
 e,Bitte,-,-n,-,Petición,-,1/2 15-02-25,1/2 11-02-24
 r,Bescheid,-,-e,-,Aviso,-,0/0 11-02-24,1/2 11-02-24
-s,Missverständnis,-,-se,-,Malentendido,-,0/0 11-02-24,0/0 11-02-24
+s,Missverständnis,-,-se,-,Malentendido,-,1/1 15-02-25,0/0 11-02-24
 e,Unternehmensführung,-,-en,-,Gestión empresarial,-,0/0 11-02-24,2/5 15-02-25
 r,Forschungsetat,-,-s,-,Presupuesto de investigación,-,0/0 11-02-24,1/2 15-02-25
 e,Absicht,-,-en,-,Intención,-,0/0 11-02-24,1/2 11-02-24
@@ -978,16 +978,16 @@ s,Finnland,-,-,-,Finlandia,-,1/2 11-02-24,0/0 11-02-24
 s,Griechenland,-,-,-,Grecia,-,0/0 11-02-24,1/2 14-02-25
 s,Großbritannien,-,-,-,Reino Unido,-,0/0 11-02-24,0/0 11-02-24
 s,Irland,-,-,-,Irlanda,-,0/0 11-02-24,0/0 11-02-24
--,Ire,Irin,-,-in,Irlandés(a),-,0/0 11-02-24,0/0 11-02-24
+-,Ire,Irin,-,-in,Irlandés(a),-,1/2 15-02-25,0/0 11-02-24
 s,Lettland,-,-,-,Letonia,-,0/0 11-02-24,0/0 11-02-24
 -,Lette,Lettin,-,-in,Letón(a),-,0/0 11-02-24,0/0 11-02-24
-s,Litauen,-,-,-,Lituania,-,0/0 11-02-24,0/0 11-02-24
+s,Litauen,-,-,-,Lituania,-,0/0 11-02-24,1/2 15-02-25
 -,Litauer,Litauerin,-,-in,Lituano(a),-,0/0 11-02-24,2/5 15-02-25
-s,Luxemburg,-,-,-,Luxemburgo,-,0/0 11-02-24,0/0 11-02-24
+s,Luxemburg,-,-,-,Luxemburgo,-,0/0 11-02-24,1/2 15-02-25
 -,Luxemburger,Luxemburgerin,-,-in,Luxemburgués(a),-,0/0 11-02-24,0/0 11-02-24
 s,Malta,-,-,-,Malta,-,0/0 11-02-24,2/3 11-02-24
 -,Malteser,Malteserin,-,-in,Maltés(a),-,1/4 14-02-25,1/2 14-02-25
-s,Polen,-,-,-,Polonia,-,1/1 14-02-25,0/0 11-02-24
+s,Polen,-,-,-,Polonia,-,2/2 15-02-25,0/0 11-02-24
 s,Portugal,-,-,-,Portugal,-,0/0 11-02-24,1/2 11-02-24
 s,Rumänien,-,-,-,Rumania,-,0/0 11-02-24,1/2 11-02-24
 s,Schweden,-,-,-,Suecia,-,0/0 11-02-24,0/0 11-02-24
@@ -1033,7 +1033,7 @@ s,Asien,-,-,-,Asia,-,0/0 11-02-24,0/0 11-02-24
 -,Asiat,Asiatin,-,-nen,Asiático(a),-,0/0 11-02-24,0/0 11-02-24
 s,Amerika,-,-,-,América,-,0/0 11-02-24,0/0 11-02-24
 -,Amerikaner,Amerikanerin,-,-nen,Americano(a),-,0/0 11-02-24,0/0 11-02-24
-s,Lateinamerika,-,-,-,América Latina,-,0/0 11-02-24,0/0 11-02-24
+s,Lateinamerika,-,-,-,América Latina,-,0/0 11-02-24,1/2 15-02-25
 -,Lateinamerikaner,Lateinamerikanerin,-,-nen,Latino(a),-,1/2 15-02-25,0/0 11-02-24
 s,Afrika,-,-,-,África,-,0/0 11-02-24,0/0 11-02-24
 -,Afrikaner,Afrikanerin,-,-nen,Africano(a),-,0/0 11-02-24,0/0 11-02-24
@@ -1045,7 +1045,7 @@ r,Kinderwagen,-,-,-,Carriola,-,0/0 11-02-24,1/2 11-02-24
 e,Wiege,-,-n,-,Cuna,-,1/2 11-02-24,1/4 11-02-24
 e,Windel,-,-n,-,Pañal,-,1/3 11-02-24,1/2 14-02-25
 r,Teddy,-,-s,-,Osito de peluche,-,0/0 11-02-24,1/2 14-02-25
-s,Töpfchen,-,-,-,Bacinica,-,0/0 11-02-24,0/0 11-02-24
+s,Töpfchen,-,-,-,Bacinica,-,0/0 11-02-24,1/2 15-02-25
 e,Kindheit,-,-,-,Infancia,-,0/0 11-02-24,0/0 11-02-24
 r,Säugling,-,-e,-,Lactante,-,0/0 11-02-24,0/0 11-02-24
 -,Neugeborene,Neugeborene,-n,-n,Recién nacido(a),-,1/2 11-02-24,1/2 14-02-25
@@ -1065,7 +1065,7 @@ r,Sandkasten,-,-,-,Arenero,-,0/0 11-02-24,1/2 11-02-24
 e,Karten,-,-,-,Cartas,-,0/0 11-02-24,1/2 11-02-24
 r,Schlittschuh,-,-e,-,Patín de hielo,-,0/0 11-02-24,2/4 14-02-25
 r,Schlitten,-,-,-,Trineo,-,0/0 11-02-24,0/0 11-02-24
-e,Jugendliche,-,-n,-,Adolescente,-,0/0 11-02-24,0/0 11-02-24
+e,Jugendliche,-,-n,-,Adolescente,-,0/0 11-02-24,1/2 15-02-25
 r,Teenager,-,-,-,Adolescente,-,0/0 11-02-24,0/0 11-02-24
 e,Pubertät,-,-,-,Pubertad,-,1/1 11-02-24,1/1 14-02-25
 -,Babysitter,Babysitterin,-,-nen,Niñero(a),-,0/0 11-02-24,1/2 11-02-24
@@ -1093,7 +1093,7 @@ e,Obduktion,-,-en,-,Autopsia,-,1/2 15-02-25,0/0 11-02-24
 s,Fräulein,-,-,-,Señorita,-,0/0 11-02-24,0/0 11-02-24
 e,Mark,-,-,-,Marco,-,0/0 11-02-24,0/0 11-02-24
 e,Münze,-,-n,-,Moneda,-,0/0 11-02-24,0/0 11-02-24
-e,Währung,-,-en,-,Moneda/Divisa,-,0/0 11-02-24,0/0 11-02-24
+e,Währung,-,-en,-,Moneda/Divisa,-,1/2 15-02-25,0/0 11-02-24
 r,Zufall,-,⸚e,-,Casualidad,-,1/4 11-02-24,0/0 11-02-24
 -,Schwager,Schwägerin,-,-nen,Cuñado(a),-,0/0 11-02-24,1/2 14-02-25
 -,Ehemann,Ehefrau,-,-en,Esposo(a),-,1/1 11-02-24,0/0 11-02-24
@@ -1106,7 +1106,7 @@ r,Zufall,-,⸚e,-,Casualidad,-,1/4 11-02-24,0/0 11-02-24
 -,Neffe,Nichte,-,-n,Sobrino(a),-,0/0 11-02-24,0/0 11-02-24
 s,Geschwister,-,-,-,Hermano,-,0/0 11-02-24,0/0 11-02-24
 s,Einzelkind,-,-er,-,Hijo único,-,0/0 11-02-24,1/2 11-02-24
-s,Enkelkind,-,-er,-,Nieto,-,0/0 11-02-24,0/0 11-02-24
+s,Enkelkind,-,-er,-,Nieto,-,0/0 11-02-24,1/2 15-02-25
 e,Verwandtschaft,-,-,-,Parentesco,-,0/0 11-02-24,0/0 11-02-24
 r,Vorfahr,-,-en,-,Ancestro,-,1/2 11-02-24,1/2 14-02-25
 r,Angehörige,-,-n,-,Familiar,-,0/0 11-02-24,1/2 11-02-24
